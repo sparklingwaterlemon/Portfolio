@@ -4,27 +4,27 @@ import { useState, useEffect } from "react";
 
 export default function App() {
 
-  const [showButton, setShowButton] = useState(false);
+  const [showScroll, setShowScroll] = useState(false);
+  
+  const checkScrollTop = () => {
+    if(!showScroll && window.pageYOffset > 400){
+      setShowScroll(true);
+      console.log("true")
+    } else if (showScroll && window.pageYOffset <= 400) {
+      setShowScroll(false);
+      console.log("false")
+    }
+  }
 
-  // change this code..
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 300) {
-        setShowButton(true);
-        console.log("true")
-      } else {
-        setShowButton(false);
-        console.log("false")
-      }
-    });
-  });
+  // is there a memory leak here?
+  // look at moon rover project
+  useEffect(()=>{
+    window.addEventListener('scroll', checkScrollTop)
+  },[])
 
   // This function will scroll the window to the top 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth' // for smoothly scrolling
-    });
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
   };
 
 
@@ -38,8 +38,8 @@ export default function App() {
       <section id="contact">CONTACT ME</section>
     </div>
 
-    {showButton && (
-    <button onClick={scrollToTop} className="back-to-top">
+    {showScroll && (
+    <button onClick={scrollTop} className="back-to-top">
       <span>&#8679;</span>
     </button>
     )}
