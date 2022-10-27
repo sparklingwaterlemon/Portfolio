@@ -30,7 +30,7 @@ export default function App() {
     console.log("scrolling.....");
     window.scrollTo({
       top: 0,
-      // behavior: 'smooth'
+      left: 0,
     })
   };
   
