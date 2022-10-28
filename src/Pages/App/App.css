@@ -8,11 +8,7 @@ section {
   /* border: 5px dotted orange; */
 }
 
-#about {
-  margin-top: 0px;
-  background: gray;
-}
-#test, #contact {
+#projects, #linkedin {
   color: #3b3b3c;
   background: #eaf2fa;
 }

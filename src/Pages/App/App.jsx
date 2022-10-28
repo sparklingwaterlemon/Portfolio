@@ -1,7 +1,9 @@
 import './App.css';
 import { useState, useEffect } from "react";
 import NavBar from '../../Components/NavBar/NavBar';
+import NavBar2Ham from '../../Components/NavBar2Ham/NavBar2Ham';
 import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
+import AboutPage from '../../Components/AboutSection/AboutSection';
 
 
 export default function App() {
@@ -10,11 +12,14 @@ export default function App() {
     <>
     <div className="container">
       <NavBar />
-      <section id="about">ABOUT</section>
-      <section id="test">PROJECTS</section>
-      <section id="blog">BLOG</section>
+      {/* <NavBar2Ham /> */}
+      <AboutPage />
+      <section id="projects">PROJECTS</section>
+      <section id="github">GitHub</section>
+      <section id="linkedin">LinkedIn</section>
       <section id="contact">CONTACT ME</section>
     </div>
+    
     <ScrollToTop />
 
   </>
