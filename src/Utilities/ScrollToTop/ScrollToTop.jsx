@@ -1,12 +1,12 @@
-import './App.css';
-import NavBar from '../../Components/NavBar/NavBar';
+import "./ScrollToTop.css";
 import { useState, useEffect } from "react";
 
-export default function App() {
+export default function ScrollToTop(){
+// toggle for scroll up
   const [showScroll, setShowScroll] = useState(false);
-  
+
   const checkScrollTop = () => {
-    if(window.pageYOffset > 700){
+    if(window.pageYOffset > 300){
       setShowScroll(true);
       // console.log("true------", showScroll);
       // console.log("offset--", window.pageYOffset)
@@ -15,44 +15,33 @@ export default function App() {
       // console.log("false-----", showScroll);
       // console.log("offset--", window.pageYOffset)
     }
-  }
-
+  };
+  
   // is there a memory leak here?
   // look at moon rover project
   useEffect(()=>{
     window.addEventListener("scroll", checkScrollTop);
     // window.removeEventListener("scroll", checkScrollTop);
     console.log("dependencey array")
-  })
+  });
+
 
   // This function will scroll the window to the top 
-  function scrollToTop(){    
+  const scrollToTop = () => {    
     console.log("scrolling.....");
     window.scrollTo({
       top: 0,
       left: 0,
     })
   };
-  
 
   return (
     <>
-    <div className="container">
-      <NavBar />
-      <section id="about">ABOUT</section>
-      <section id="projects">PROJECTS</section>
-      <section id="blog">BLOG</section>
-      <section id="contact">CONTACT ME</section>
-    </div>
-
     {showScroll ? 
-    <button onClick={scrollToTop} className="back-to-top">
-      <span>&#8679;</span>
-      </button> : false
-    }
-
-  </>
-  );
+        <button onClick={scrollToTop} className="back-to-top">
+        <span>&#8679;</span>
+        </button>
+    : false}    
+    </>
+  )
 }
-
-

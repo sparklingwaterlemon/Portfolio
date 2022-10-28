@@ -12,7 +12,7 @@ export default function NavBar(){
               </Link>
             </li>
             <li>
-              <Link activeClass="active" smooth spy to="projects">
+              <Link activeClass="active" smooth spy to="test">
                 PROJECTS
               </Link>
             </li>

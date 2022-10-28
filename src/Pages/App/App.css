@@ -1,0 +1,21 @@
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+  /* background-color: gray; */
+  /* border: 5px dotted orange; */
+}
+
+#about {
+  margin-top: 0px;
+  background: gray;
+}
+#test, #contact {
+  color: #3b3b3c;
+  background: #eaf2fa;
+}
+
+
+
