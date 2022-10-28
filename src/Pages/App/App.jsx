@@ -13,9 +13,9 @@ export default function App() {
   return (
     <>
     <div className="container">
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <NavBar2Ham /> */}
-      {/* <NavBar3 /> */}
+      <NavBar3 />
       <AboutPage />
       <section id="projects">PROJECTS</section>
       <section id="github">GitHub</section>

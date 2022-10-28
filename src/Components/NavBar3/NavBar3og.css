@@ -1,5 +1,8 @@
 .navigation {
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+
     display: flex;
     align-items: center;
     height: 60px;
@@ -57,7 +60,7 @@
     background-color: #2642af;
   }
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 1000px) {
     .hamburger {
       display: block;
     }

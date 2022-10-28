@@ -39,20 +39,14 @@
 
 
 .nav-button-container {
-    position: relative;
+    position: sticky;
     cursor: pointer;
     right: 10px;
+    display: none;
 }
 .nav-button-container button {
     width: 40px;
     height: 40px;
-}
-
-#nav-ul-show{
-    display: block;
-}
-#nav-ul-hide{
-    display: none
 }
 
 
@@ -61,16 +55,12 @@
     .nav-ul{
         display: none;
     }
+    .nav-button-container {
+        display: block;
+    }
     .nav-ul.show{
         flex-direction: column;
         width: 100%;
-        height: 100px;
         display: block;
-    }
-}
-
-@media only screen and (min-width: 1000.5px){
-    .nav-button-container {
-        display: none;
     }
 }
