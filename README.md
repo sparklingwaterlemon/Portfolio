@@ -16,6 +16,10 @@ https://trello.com/b/JCTYkyVs/portfolio
 ##### 10/26:
 - Template / Basics for NavBar
 - Template / Basics for ScrollToTop
+
+##### 10/27:
+- Working on Responsive NavBar
+
 <hr/>
 
 
@@ -29,6 +33,15 @@ https://trello.com/b/JCTYkyVs/portfolio
 
 
 #### Resources:
+
+##### 10/27:
+
+Responsive NavBar
+```
+https://blog.logrocket.com/create-responsive-navbar-react-css/
+```
+<br />
+
 ##### 10/26:
 
 <em> REACT BOOTSRAP </em>
@@ -73,6 +86,7 @@ https://github.com/negomi/react-burger-menu
 ```
 
 <br/>
+
 ##### 10/25: 
 React BootStrap 
 ```

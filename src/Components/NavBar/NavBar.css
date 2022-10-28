@@ -12,13 +12,11 @@
     background-color: lightsalmon;
     box-shadow: 0 1rem 1rem 0 rgb(0 0 0 / 11%); 
 } 
-
 .nav-home {
     color: blue;
     position: absolute;
     left: 2%;
 }
-
 .nav-ul {
     display: flex;
     align-items: center;
@@ -27,14 +25,12 @@
     gap: 2rem;
     padding: 0px 30px;
 }
-
 .nav-ul li {
     cursor: pointer;
 }
 .nav-li:hover {
     text-decoration: underline;
 }
-
 .active {
     font-weight: bold;
 }
@@ -53,7 +49,7 @@
 }
 
 #nav-ul-show{
-    display: show
+    display: block;
 }
 #nav-ul-hide{
     display: none
@@ -65,8 +61,11 @@
     .nav-ul{
         display: none;
     }
-    #nav-ul-show{
-        display: show;
+    .nav-ul.show{
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+        display: block;
     }
 }
 

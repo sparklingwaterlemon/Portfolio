@@ -4,23 +4,12 @@ import { useEffect, useState } from "react";
 
 
 export default function NavBar(){
-  const [toggle, setToggle] = useState(-1)
-  const [toggledDisplay, setToggledDisplay] = useState("nav-ul-show")
+  const [toggle, setToggle] = useState(true)
 
   const toggleMenu = () => {
-      setToggle(toggle * -1)
-      console.log("(1) togglebutton---", toggle)
+      setToggle(!toggle)
   }
-  useEffect(() =>{
-    if(toggle == 1){
-      console.log("(2) useEffect--- true")
-      setToggledDisplay("nav-ul-hide")
-    }else{
-      console.log("false")
-      setToggledDisplay("nav-ul-show")
-    }
-  })
-  
+ 
 
   return(
     <header className="nav-header">
@@ -35,33 +24,13 @@ export default function NavBar(){
               <span></span>
           </div>
 
-          <ul className="nav-ul" id={toggledDisplay}>
+          <ul className={toggle ? "nav-ul" : "nav-ul show"}>
             <li className="nav-home"> Home </li>
-            <li>
-              <Link activeClass="active" smooth spy to="about">
-                ABOUT
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="projects">
-                PROJECTS
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="github">
-                GitHub
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="linkedin">
-                LinkedIn
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="contact">
-                CONTACT ME
-              </Link>
-            </li>
+            <li><Link activeClass="active" smooth spy to="about" onClick={toggleMenu}>ABOUT</Link></li>
+            <li><Link activeClass="active" smooth spy to="projects" onClick={toggleMenu}>PROJECTS</Link></li>
+            <li><Link activeClass="active" smooth spy to="github" onClick={toggleMenu}>GitHub</Link></li>
+            <li><Link activeClass="active" smooth spy to="linkedin" onClick={toggleMenu}>LinkedIn</Link></li>
+            <li><Link activeClass="active" smooth spy to="contact" onClick={toggleMenu}>CONTACT ME</Link></li>
           </ul>
 
         </nav>
