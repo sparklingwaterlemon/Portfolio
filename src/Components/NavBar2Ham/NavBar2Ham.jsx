@@ -3,8 +3,9 @@ import { Link } from "react-scroll";
 
 export default function NavBar2Ham(){
     return(
-        <header>
+        <header className="nav2-header">
             <div id="menuToggle">
+            <nav>
                 <input type="checkbox"/>
                 <span></span>
                 <span></span>
@@ -36,6 +37,7 @@ export default function NavBar2Ham(){
                     </Link>
                 </li>
                 </ul>
+            </nav>
             </div>
         </header>
     )
