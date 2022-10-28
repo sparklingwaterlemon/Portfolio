@@ -22,9 +22,7 @@ export default function NavBar3() {
         onClick={toggle}>
       </button>
       
-      <div 
-        className={
-            isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
+      <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
         <ul>
           <li><Link activeClass="active" smooth spy to="about" onClick={toggle}>ABOUT</Link></li>
           <li><Link activeClass="active" smooth spy to="projects" onClick={toggle}>PROJECTS</Link></li>

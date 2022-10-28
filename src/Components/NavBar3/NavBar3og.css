@@ -38,6 +38,7 @@
 .navigation-menu li {
   list-style-type: none;
   margin: 0 1rem;
+  cursor: pointer;
 }
 
 .navigation-menu li a {
@@ -75,13 +76,21 @@
     display: block;
   }
   .navigation-menu.expanded ul {
-    display: block;
-    animation: hamburger-in .5s;
+    /* display: block; */
+    /* animation: hamburger-in .5s; */
+    
+    /* visibility: visible; */
+
+    opacity: 1;
+    pointer-events: auto;
+    user-select: auto;
+    transition: opacity .4s ease-in;
+    
   }
-  @keyframes hamburger-in {
+  /* @keyframes hamburger-in {
     from {opacity: 0}
     to {opacity: 1}
-  }
+  } */
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;
@@ -94,17 +103,27 @@
     background-color: white;
     border-top: 1px solid black;
 
-    display: none;
-    animation: hamburger-out .5s;
+    /* previous attempt. with opacity the navbar will exist on page */
+    /* display: none;
+    animation: hamburger-out .5s; */
+
+    /* visibility: hidden; */
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    transition: opacity 0.4s ease-out;
   }
-  @keyframes hamburger-out {
+  /* @keyframes hamburger-out {
     from {display: block;}
     to {display: none;}
-  }
+  } */
+
+
 
   .navigation-menu li {
     text-align: center;
     margin: 0px;
+    cursor: pointer;
   }
 
   .navigation-menu li a {
