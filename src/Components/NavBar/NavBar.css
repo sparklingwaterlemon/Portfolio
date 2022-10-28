@@ -41,31 +41,37 @@
 
 
 
-#nav-checkbox {
+
+.nav-button-container {
     position: relative;
     cursor: pointer;
+    right: 10px;
 }
-
-#nav-checkbox input {
+.nav-button-container button {
     width: 40px;
     height: 40px;
 }
 
-#nav-checkbox input:checked~ul {
-    display: show;
+#nav-ul-show{
+    display: show
 }
+#nav-ul-hide{
+    display: none
+}
+
+
 
 @media only screen and (max-width: 1000px){
     .nav-ul{
-        display: none
+        display: none;
     }
-    #nav-checkbox {
+    #nav-ul-show{
         display: show;
     }
 }
 
 @media only screen and (min-width: 1000.5px){
-    #nav-checkbox {
-        display: show;
+    .nav-button-container {
+        display: none;
     }
 }

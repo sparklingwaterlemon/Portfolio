@@ -2,11 +2,13 @@ import "./NavBar2Ham.css";
 import { Link } from "react-scroll";
 
 export default function NavBar2Ham(){
+
+
     return(
         <header className="nav2-header">
             <div id="menuToggle">
             <nav>
-                <input type="checkbox"/>
+                <input type="checkbox" />
                 <span></span>
                 <span></span>
                 <span></span>
