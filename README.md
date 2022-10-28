@@ -36,9 +36,16 @@ https://trello.com/b/JCTYkyVs/portfolio
 
 ##### 10/27:
 
+NavBar Hamburger Animation
+```
+https://codepen.io/erikterwan/pen/EVzeRP?editors=1100
+```
 Responsive NavBar
 ```
 https://blog.logrocket.com/create-responsive-navbar-react-css/
+```
+```
+https://codesandbox.io/s/react-responsive-nav-3n3lu?file=/src/styles/navbar.css:0-1520
 ```
 <br />
 
