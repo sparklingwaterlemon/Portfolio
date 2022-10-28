@@ -1,7 +1,7 @@
 import './App.css';
 // import { useState, useEffect } from "react";
-import NavBar from '../../Components/NavBar/NavBar';
-import NavBar2Ham from '../../Components/NavBar2Ham/NavBar2Ham';
+// import NavBar from '../../Components/NavBar/NavBar';
+// import NavBar2Ham from '../../Components/NavBar2Ham/NavBar2Ham';
 import NavBar3 from '../../Components/NavBar3/NavBar3';
 
 import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
