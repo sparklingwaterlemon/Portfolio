@@ -11,9 +11,9 @@
   height: 60px;
   width: 100%;
   padding: 0.5rem 0rem;
-  background-color: rgba(70,100,200, .4);
+  background-color: lightgoldenrodyellow;
   color: black;
-  box-shadow: 0px 0px 3px 10px rgba(9, 9, 9, 0.23);
+  box-shadow: 0px 0px 10px 2px rgba(9, 9, 9, 0.23);
 
 }
 .nav-home {
@@ -70,11 +70,10 @@
 
 
 
-
+/* 
 .ham-container {
   text-align: center;
   justify-content: center;
-  /* border: 1px solid red; */
   
   position: absolute;
   top: 50%;
@@ -110,8 +109,6 @@
 .ham.off.b{
   background-color: green;
 }
-
-
 .ham.on.t{ 
   left: 3px;
   opacity: 1;
@@ -126,7 +123,8 @@
   opacity: 1;
   transform: rotate(-45deg) translate(-3px, 50%);
   background: #232323;
-}
+} 
+*/
 
 
 
@@ -141,8 +139,8 @@
   }
   .nav-menu.expanded ul {
     display: block;
-    background-color: rgba(200, 100, 50, .4);
-    animation: hamburger-in 1s;
+    background-color: white;
+    animation: hamburger-in .4s;
   }
   @keyframes hamburger-in {
     from {opacity: 0}
