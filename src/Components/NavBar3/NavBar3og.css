@@ -1,7 +1,10 @@
-.navigation {
-  position: -webkit-sticky;
-  position: sticky;
+.active {
+  font-weight: bold;
+}
+.nav-bar {
+  position: fixed;
   top: 0px;
+  position: -webkit-sticky;
 
   display: flex;
   align-items: center;
@@ -12,36 +15,30 @@
   color: black;
   box-shadow: 0px 0px 3px 10px rgba(9, 9, 9, 0.23);
 }
-
-.brand-name {
+.nav-home {
   text-decoration: none;
   color: black;
   font-size: 1.3rem;
   margin-left: 1rem;
-  background-color: lightcyan;
-}
 
-.active {
   font-weight: bold;
+  /* same style as active class */
 }
 
 
-.navigation-menu {
+
+.nav-menu {
   margin-left: auto;
-  background-color: lightblue;
 }
-
-.navigation-menu ul {
+.nav-ul {
   display: flex;
 }
-
-.navigation-menu li {
+.nav-ul li {
   list-style-type: none;
   margin: 0 1rem;
   cursor: pointer;
 }
-
-.navigation-menu li a {
+.nav-ul li a {
   text-decoration: none;
   display: block;
   width: 100%;
@@ -66,75 +63,80 @@
   transform: translateY(-50%);
   display: none;
 }
-
 .hamburger:hover {
   background-color: lightcyan;
 }
+
+
+.ham-toggle-off span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background-color: orange;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+              background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+              /* opacity 0.55s ease; */
+}
+.ham-toggle-off .t{
+  background-color: blue;
+  transform-origin: 0% 0%;
+}
+.ham-toggle-off .b{
+  background-color: green;
+  transform-origin: 0% 100%;
+}
+
+.ham-toggle-on .t{
+  transform: rotate(45deg) translate(-2px, -1px);
+}
+
+
 
 @media screen and (max-width: 1000px) {
   .hamburger {
     display: block;
   }
-  .navigation-menu.expanded ul {
-    /* display: block; */
-    /* animation: hamburger-in .5s; */
-    
-    /* visibility: visible; */
-
-    opacity: 1;
-    pointer-events: auto;
-    user-select: auto;
-    transition: opacity .4s ease-in;
-    
+  .nav-menu.expanded ul {
+    display: block;
+    animation: hamburger-in 1s;
   }
-  /* @keyframes hamburger-in {
+  @keyframes hamburger-in {
     from {opacity: 0}
-    to {opacity: 1}
-  } */
-  .navigation-menu ul {
+    to {opacity: 1} 
+  }
+  .nav-ul {
     flex-direction: column;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
     margin: 0px;
-    height: 100vh;
-    /* height: calc(100vh - 60px); */
+    height: calc(100vh-60px);
     background-color: white;
     border-top: 1px solid black;
-
-    /* previous attempt. with opacity the navbar will exist on page */
-    /* display: none;
-    animation: hamburger-out .5s; */
-
-    /* visibility: hidden; */
-    opacity: 0;
-    pointer-events: none;
-    user-select: none;
-    transition: opacity 0.4s ease-out;
+    display: none;
   }
-  /* @keyframes hamburger-out {
-    from {display: block;}
-    to {display: none;}
-  } */
-
-
-
-  .navigation-menu li {
+  .nav-ul li {
     text-align: center;
     margin: 0px;
     cursor: pointer;
   }
-
-  .navigation-menu li a {
+  .nav-ul li a {
     color: black;
     width: 100%;
     padding: 1.5rem 0;
   }
-
-  .navigation-menu li:hover {
+  .nav-ul li:hover {
     background-color: lightslategrey;
   }
 
- 
 }

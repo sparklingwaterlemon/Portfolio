@@ -11,27 +11,36 @@ export default function NavBar3() {
   }
 
   return (
-    <nav className="navigation">
-      {/* make this scroll to top */}
-      <a href="/" className="brand-name">
-        MacroSoft
-      </a>
+    <header className="nav-header">
+      <nav className="nav-bar">
+        {/* make this scroll to top */}
+        <Link className="nav-home" smooth spy to="about" onClick={toggle}>
+          Mike
+        </Link>
 
-      <button
-        className="hamburger"
-        onClick={toggle}>
-      </button>
-      
-      <div className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
-        <ul>
-          <li><Link activeClass="active" smooth spy to="about" onClick={toggle}>ABOUT</Link></li>
-          <li><Link activeClass="active" smooth spy to="projects" onClick={toggle}>PROJECTS</Link></li>
-          <li><Link activeClass="active" smooth spy to="github" onClick={toggle}>GitHub</Link></li>
-          <li><Link activeClass="active" smooth spy to="linkedin" onClick={toggle}>LinkedIn</Link></li>
-          <li><Link activeClass="active" smooth spy to="contact" onClick={toggle}>CONTACT ME</Link></li>
-        </ul>
-      </div>
 
-    </nav>
+        <button
+          className="hamburger"
+          onClick={toggle}>
+        </button>
+
+        <div className={isNavExpanded ? "ham-toggle-on" : "ham-toggle-off"}>
+          <span className="t"></span>
+          <span className="m"></span>
+          <span className="b"></span>
+        </div>
+
+        <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
+          <ul className="nav-ul">
+            <li><Link activeClass="active" smooth spy to="about" onClick={toggle}>ABOUT</Link></li>
+            <li><Link activeClass="active" smooth spy to="projects" onClick={toggle}>PROJECTS</Link></li>
+            <li><Link activeClass="active" smooth spy to="github" onClick={toggle}>GitHub</Link></li>
+            <li><Link activeClass="active" smooth spy to="linkedin" onClick={toggle}>LinkedIn</Link></li>
+            <li><Link activeClass="active" smooth spy to="contact" onClick={toggle}>CONTACT ME</Link></li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
   );
 }

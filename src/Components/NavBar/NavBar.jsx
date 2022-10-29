@@ -15,6 +15,8 @@ export default function NavBar(){
     <header className="nav-header">
       <div className="nav-container">
         <nav>
+
+
           <div className="nav-button-container">
             
             <span> test </span>
@@ -25,7 +27,7 @@ export default function NavBar(){
           </div>
 
           <ul className={toggle ? "nav-ul" : "nav-ul show"}>
-            <li className="nav-home"> Home </li>
+
             <li><Link activeClass="active" smooth spy to="about" onClick={toggleMenu}>ABOUT</Link></li>
             <li><Link activeClass="active" smooth spy to="projects" onClick={toggleMenu}>PROJECTS</Link></li>
             <li><Link activeClass="active" smooth spy to="github" onClick={toggleMenu}>GitHub</Link></li>
