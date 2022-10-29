@@ -11,9 +11,10 @@
   height: 60px;
   width: 100%;
   padding: 0.5rem 0rem;
-  background-color: #fff;
+  background-color: rgba(70,100,200, .4);
   color: black;
   box-shadow: 0px 0px 3px 10px rgba(9, 9, 9, 0.23);
+
 }
 .nav-home {
   text-decoration: none;
@@ -68,11 +69,26 @@
 }
 
 
-.ham-toggle-off span {
+
+
+.ham-container {
+  text-align: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
   display: block;
+}
+
+.ham {
+  
+  display: none;
   width: 33px;
   height: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   position: relative;
 
   background-color: orange;
@@ -80,24 +96,39 @@
   
   z-index: 1;
   
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-              background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-              /* opacity 0.55s ease; */
-}
-.ham-toggle-off .t{
-  background-color: blue;
   transform-origin: 0% 0%;
+  
+  transition: 
+              transform 0.5s ease-in-out,
+              background-color 0.5s ease-in-out,
+              opacity 0.55s ease;
 }
-.ham-toggle-off .b{
+.ham.off.t{
+  background-color: blue;
+
+}
+.ham.off.b{
   background-color: green;
-  transform-origin: 0% 100%;
 }
 
-.ham-toggle-on .t{
-  transform: rotate(45deg) translate(-2px, -1px);
+
+.ham.on.t{ 
+  left: 3px;
+  opacity: 1;
+  transform: rotate(45deg) translate(-3px, -3px);
+  background: #232323;
 }
+.ham.on.m{
+  opacity: 0;
+  transform: rotate(0deg) scale(10%);
+}
+.ham.on.b{
+  opacity: 1;
+  transform: rotate(-45deg) translate(-3px, 50%);
+  background: #232323;
+}
+
+
 
 
 
@@ -105,8 +136,12 @@
   .hamburger {
     display: block;
   }
+  .ham {
+    display: block;
+  }
   .nav-menu.expanded ul {
     display: block;
+    background-color: rgba(200, 100, 50, .4);
     animation: hamburger-in 1s;
   }
   @keyframes hamburger-in {
@@ -114,13 +149,14 @@
     to {opacity: 1} 
   }
   .nav-ul {
+    z-index: 0;
     flex-direction: column;
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
     margin: 0px;
-    height: calc(100vh-60px);
+    height: calc(100vh - 60px);
     background-color: white;
     border-top: 1px solid black;
     display: none;

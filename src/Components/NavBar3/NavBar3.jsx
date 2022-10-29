@@ -23,11 +23,12 @@ export default function NavBar3() {
           className="hamburger"
           onClick={toggle}>
         </button>
-
-        <div className={isNavExpanded ? "ham-toggle-on" : "ham-toggle-off"}>
-          <span className="t"></span>
-          <span className="m"></span>
-          <span className="b"></span>
+        
+        
+        <div class="ham-container">
+          <span className={isNavExpanded ? "ham on t" : "ham off t"} > &nbsp;</span>
+          <span className={isNavExpanded ? "ham on m" : "ham off m"} > &nbsp;</span>
+          <span className={isNavExpanded ? "ham on b" : "ham off b"} > &nbsp;</span>
         </div>
 
         <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
