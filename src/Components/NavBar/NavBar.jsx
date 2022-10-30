@@ -1,42 +1,45 @@
 import "./NavBar.css";
+import { useState } from "react";
 import { Link } from "react-scroll";
-import { useEffect, useState } from "react";
 
+export default function NavBar() {
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
 
-export default function NavBar(){
-  const [toggle, setToggle] = useState(true)
-
-  const toggleMenu = () => {
-      setToggle(!toggle)
+  const toggle = () => {
+    setIsNavExpanded(!isNavExpanded)
   }
- 
 
-  return(
+  return (
     <header className="nav-header">
-      <div className="nav-container">
-        <nav>
+      <nav className="nav-bar">
+        
+        <span className="nav-home" onClick={() => window.scrollTo({top: 0,left: 0,})}>
+          Mike
+        </span>
+        
+        <button
+          className="hamburger"
+          onClick={toggle}>
+        </button>
+        
+        {/* Hamburger Animation - Currently Ice Boxed */}
+        {/* <div class="ham-container">
+          <span className={isNavExpanded ? "ham on t" : "ham off t"} > &nbsp;</span>
+          <span className={isNavExpanded ? "ham on m" : "ham off m"} > &nbsp;</span>
+          <span className={isNavExpanded ? "ham on b" : "ham off b"} > &nbsp;</span>
+        </div> */}
 
-
-          <div className="nav-button-container">
-            
-            <span> test </span>
-            <button onClick={toggleMenu} />
-              <span></span>
-              <span></span>
-              <span></span>
-          </div>
-
-          <ul className={toggle ? "nav-ul" : "nav-ul show"}>
-
-            <li><Link activeClass="active" smooth spy to="about" onClick={toggleMenu}>ABOUT</Link></li>
-            <li><Link activeClass="active" smooth spy to="projects" onClick={toggleMenu}>PROJECTS</Link></li>
-            <li><Link activeClass="active" smooth spy to="github" onClick={toggleMenu}>GitHub</Link></li>
-            <li><Link activeClass="active" smooth spy to="linkedin" onClick={toggleMenu}>LinkedIn</Link></li>
-            <li><Link activeClass="active" smooth spy to="contact" onClick={toggleMenu}>CONTACT ME</Link></li>
+        <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
+          <ul className="nav-ul">
+            <li><Link activeClass="active" smooth spy to="about" onClick={toggle}>ABOUT</Link></li>
+            <li><Link activeClass="active" smooth spy to="projects" onClick={toggle}>PROJECTS</Link></li>
+            <li><Link activeClass="active" smooth spy to="github" onClick={toggle}>GitHub</Link></li>
+            <li><Link activeClass="active" smooth spy to="linkedin" onClick={toggle}>LinkedIn</Link></li>
+            <li><Link activeClass="active" smooth spy to="contact" onClick={toggle}>CONTACT ME</Link></li>
           </ul>
+        </div>
 
-        </nav>
-      </div>
+      </nav>
     </header>
-  )
+  );
 }
