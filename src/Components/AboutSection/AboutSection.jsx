@@ -1,6 +1,6 @@
 import "./AboutSection.css";
 
-export default function AboutPage(){
+export default function AboutSection(){
     return (
         <section id="about">
             <h2> ABOUT </h2>

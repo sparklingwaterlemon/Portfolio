@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
 }
+
+/* change later, individual section may need different height */
 section {
   display: grid;
   place-items: center;
