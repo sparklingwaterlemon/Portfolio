@@ -1,9 +1,10 @@
 import "./ContactSection.css";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
 
 export default function ContactSection() {
-    
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -11,12 +12,13 @@ export default function ContactSection() {
 
         emailjs.sendForm('service_ieot69p', 'contact_form', form.current, '9zHpGgxhJn13QZpf0')
             .then((result) => {
-                console.log(result.text);
+                console.log("result", result.text);
             }, (error) => {
-                console.log(error.text);
+                console.log("error", error.text);
             });
         
         e.target.reset();
+        // change to SWAL sweetalert
         alert("Your message was sent!")
     };
 
