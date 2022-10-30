@@ -1,9 +1,41 @@
 import "./ContactSection.css";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-export default function ContactSection(){
+export default function ContactSection() {
+    
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_ieot69p', 'contact_form', form.current, '9zHpGgxhJn13QZpf0')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        
+        e.target.reset();
+        alert("Your message was sent!")
+    };
+
     return (
         <section id="contact">
-            <h1> CONTACT Section ME</h1>
+            <form ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" autoComplete="off" required/>
+
+                <label>Email</label>
+                <input type="email" name="user_email" autoComplete="off" required/>
+
+                <label>Subject</label>
+                <input type="text" name="email_subject" autoComplete="off"/>
+
+                <label>Message</label>
+                <textarea name="email_message" autoComplete="off" required/>
+                <input type="submit" value="Send" />
+            </form>
         </section>
-    )
-}
+    );
+};
