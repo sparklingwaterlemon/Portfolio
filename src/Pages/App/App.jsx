@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from '../../Components/NavBar/NavBar';
-import AboutSection from '../../Components/AboutSection/AboutSection';
+import HeroSection from '../../Components/HeroSection/HeroSection';
+// import AboutSection from '../../Components/HeroSection/HeroSection';
 
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
@@ -12,8 +13,8 @@ export default function App() {
     <>
     <div className="container">
       <NavBar />
-      <AboutSection />
-      
+      <HeroSection />
+      <section id="about"> ABOUT </section>
       <section id="projects">PROJECTS</section>
       <section id="github">GitHub</section>
       <section id="linkedin">LinkedIn</section>

@@ -3,7 +3,7 @@
 }
 
 /* change later, individual section may need different height */
-section {
+#about, #projects, #github, #linkedin, #contact {
   display: grid;
   place-items: center;
   height: 100vh;
@@ -13,7 +13,7 @@ section {
   /* border: 5px dotted orange; */
 }
 
-#projects, #linkedin {
+#about, #github, #contact {
   color: #3b3b3c;
   background: #eaf2fa;
 }
