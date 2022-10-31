@@ -13,17 +13,36 @@ export default function ContactSection() {
         emailjs.sendForm('service_ieot69p', 'contact_form', form.current, '9zHpGgxhJn13QZpf0')
             .then((result) => {
                 console.log("result", result.text);
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Your email has been sent',
+                    padding: '1em',
+                    color: '#716add',
+                    background: '#FCFBFB',
+                    backdrop: `
+                    rgba(0,0,123,.4)
+                    url("https://i.imgur.com/hfPNvMU.gif")
+                    left top
+                    no-repeat
+                    `
+                })
             }, (error) => {
                 console.log("error", error.text);
+                Swal.fire({
+                    icon: 'error',
+                    background: '#FCFBFB',
+                    title: 'Oops... Something went wrong',
+                    text: error.text,
+                })
             });
-        
+     
         e.target.reset();
-        // change to SWAL sweetalert
-        alert("Your message was sent!")
     };
-
+    
+    
     return (
         <section id="contact">
+            {/* <img src={nyanCat} /> */}
             <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type="text" name="user_name" autoComplete="off" required/>
