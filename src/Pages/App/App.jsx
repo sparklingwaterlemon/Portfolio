@@ -3,6 +3,8 @@ import NavBar from '../../Components/NavBar/NavBar';
 import HeroSection from '../../Components/HeroSection/HeroSection';
 import AboutSection from '../../Components/AboutSection/AboutSection';
 
+import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
+
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
 
@@ -15,7 +17,7 @@ export default function App() {
       <NavBar />
       <HeroSection />
       <AboutSection />
-      <section id="projects">PROJECTS</section>
+      <ProjectSectionA />
       <section id="github">GitHub</section>
       <section id="linkedin">LinkedIn</section>
       <ContactSection />

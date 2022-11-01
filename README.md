@@ -30,10 +30,15 @@
 - Worked on Hamburger Animation, transforming 3 lines to a X symbol. Most of the code is coded. Leaving in Ice Box, getting animation precisely lined up && getting it lined up over button click (CSS and JS adjustments) is taking up too much time.
 - Deployed portfolio via Netlify - Change site name later - [moonlit-gelato.netlify.app](moonlit-gelato.netlify.app)
 
-#### 10/29:
+#### 10/29-30:
 - Site Name in NavBar on click to top of page
 - Using EmailJS, created a form to receive sent emails
 - Begining using sweetalert to create a popup for sent email confirmation
+
+#### 10/31:
+- Sweetalert Success and Error message complete
+- Created and Roughed out Hero Section for iPhone 14 Plu compatilbility
+
 
 <hr/>
 
@@ -167,6 +172,8 @@ Cat CSS on CodePen:
 <hr/>
 
 ### IceBox
+- iPhone 14 regular compatibility/ etc.
+
 - Hamburger Animation
 
 - Optimizing Event Listeners
