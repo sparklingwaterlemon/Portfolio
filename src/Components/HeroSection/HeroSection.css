@@ -2,12 +2,12 @@
     height: 120vh;
     margin-top: 10vh;
 }
-.hero-image-container{
-    background: rgba(212, 39, 39, 0.4);
+.image-container{
+    /* background: rgba(212, 39, 39, 0.4); */
     height: 58vh;
 }
 .hero-image{
-    background-color: rgba(205, 140, 44, 0.4);
+    /* background-color: rgba(205, 140, 44, 0.4); */
 
     height: 58vh;
     max-width: 100%;
@@ -17,8 +17,8 @@
     object-fit: cover;
     object-position: center;
 }
-.hero-name{
-    background-color: rgba(247, 237, 38, 0.371);
+.hero-title{
+    /* background-color: rgba(247, 237, 38, 0.371); */
 
     position: relative;
     text-align: center;
@@ -28,8 +28,8 @@
     padding: 1em;
     color: red; */
 }
-.hero-pb-container{
-    background-color: rgba(137, 221, 41, 0.4);
+.pb-container{
+    /* background-color: rgba(137, 221, 41, 0.4); */
 
     height: 32vh;
 
@@ -37,29 +37,30 @@
     align-items: flex-start;
     justify-content: center;
 }
-.hero-pb{
-    background-color: rgba(62, 255, 78, 0.4);
+.pb-title{
+    /* background-color: rgba(62, 255, 78, 0.4); */
     text-align: center;
     margin-top: 20px;
+    padding: 0px 10px 0px 10px;
     /* 
     margin-top: 10vh;
     font-size: 2em; */
 }
 .pb-text{
     height: 30vh;
-    background-color: rgba(52, 192, 136, 0.4);
+    /* background-color: rgba(52, 192, 136, 0.4); */
 }
 
 
 @media only screen and (max-width: 600px){
-    .hero-name{
+    .hero-title{
         top: 15vh;
 
         font-size: 5em;
         padding: 1em;
         color: red;
     }
-    .hero-pb{
+    .pb-title{
         margin-top: 8vh;
         font-size: 1.8em;
         /* padding: 20px; */
