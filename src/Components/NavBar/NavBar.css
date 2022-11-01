@@ -1,16 +1,17 @@
 .active {
   font-weight: bold;
 }
+
+
 .nav-bar {
   position: fixed;
-  top: 0px;
-  position: -webkit-sticky;
+  top: 0;
+  height: 10vh;
 
   user-select: none;
 
   display: flex;
   align-items: center;
-  height: 60px;
   width: 100%;
   padding: 0.5rem 0rem;
   background-color: lightgoldenrodyellow;
