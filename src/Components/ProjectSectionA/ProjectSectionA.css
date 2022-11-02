@@ -1,0 +1,129 @@
+#projects{
+    height: 100vh;
+    color: black;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-a-transition{
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    background-image: linear-gradient(#eaf2fa,#e2effc,#c7e1fb);
+}
+
+.a-image-container{
+    height: 90vh;
+    width: 50vw;
+    background-color: rgba(128, 128, 128,.4);
+}
+
+.a-long-image{
+    /* position: relative; */
+    height: 300px;
+    background-color:rgba(255, 235, 205,.4);
+
+}
+
+.a-tall-image{
+
+}
+
+
+.a-statement-container{
+    height: 90vh;
+    width: 50vw;
+    background-color: lightcoral;
+}
+
+
+
+.a-button-container{
+
+}
+
+.button1 {
+    /* height: 80px;
+    width: 100px;
+    border-radius: 20% 0% 0% 20%;
+    border: none;
+    text-align: center; */
+}
+.button2 {
+    /* height: 80px;
+    width: 150px;
+    border-radius: 0% 20% 20% 0%;
+    text-align: center;
+    border: none; */
+}
+
+@media only screen and (max-width: 600){
+
+    .a-image-container{
+        height: 45vh; 
+        width: 100vw;
+        background-color: rgba(253, 69, 69, 0.4);
+        
+        /* display: flex; */
+        /* text-align: center;
+        justify-content: center; */
+    }
+    
+    .a-long-image{
+        position: relative;
+        
+        height: 250px;
+        width: 600px;
+    
+        left: 50%;
+        top: 10%;
+        transform: translate(-50%);
+    
+        background-color: rgba(81, 253, 69, 0.4);
+        z-index: 0;
+    }
+    
+    .a-tall-image{
+        position: relative;
+        
+        height: 250px;
+        width: 200px;
+    
+        bottom: 20%;
+        left: 50%;
+        transform: translate(-50%);
+    
+    
+        background-color: rgba(69, 253, 253, 0.4);
+        z-index: 1;
+    }
+    
+    
+    .a-statement-container{
+        height: 30vh;
+        background-color: rgba(230, 149, 35, 0.4);
+    }
+    
+    
+    
+    .a-button-container{
+        height: 15vh;
+        background-color: rgba(255, 244, 93, 0.4);
+    }
+    
+    .button1 {
+        height: 80px;
+        width: 100px;
+        border-radius: 20% 0% 0% 20%;
+        border: none;
+        text-align: center;
+    }
+    .button2 {
+        height: 80px;
+        width: 150px;
+        border-radius: 0% 20% 20% 0%;
+        text-align: center;
+        border: none;
+    }
+    
+}

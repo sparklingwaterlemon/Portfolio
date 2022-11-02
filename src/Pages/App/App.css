@@ -2,8 +2,9 @@
   box-sizing: border-box;
 }
 
+
 /* change later, individual section may need different height */
-#about, #projects, #github, #linkedin, #contact {
+#github, #linkedin, #contact {
   display: grid;
   place-items: center;
   height: 100vh;

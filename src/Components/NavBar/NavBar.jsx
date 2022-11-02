@@ -10,7 +10,7 @@ export default function NavBar() {
   }
 
   return (
-    <header className="nav-header">
+    
       <nav className="nav-bar">
         
         <span className="nav-home" onClick={() => window.scrollTo({top: 0,left: 0,})}>
@@ -32,6 +32,7 @@ export default function NavBar() {
         <div className={isNavExpanded ? "nav-menu expanded" : "nav-menu"}>
           <ul className="nav-ul">
             <li><Link activeClass="active" smooth spy to="about" onClick={toggle}>ABOUT</Link></li>
+            <li><Link activeClass="active" smooth spy to="text" onClick={toggle}>TEXT</Link></li>
             <li><Link activeClass="active" smooth spy to="projects" onClick={toggle}>PROJECTS</Link></li>
             <li><Link activeClass="active" smooth spy to="github" onClick={toggle}>GitHub</Link></li>
             <li><Link activeClass="active" smooth spy to="linkedin" onClick={toggle}>LinkedIn</Link></li>
@@ -40,6 +41,6 @@ export default function NavBar() {
         </div>
 
       </nav>
-    </header>
+    
   );
 }
