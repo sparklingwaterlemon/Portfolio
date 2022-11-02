@@ -7,12 +7,13 @@ export default function ProjectSectionA(){
 
             <div className="a-image-container">
                 <div className="a-long-image">
-                    .a-long-image
+                    .a-long-imagefdsafdsafsad
+                    <div className="a-tall-image">
+                        .a-tall-image
+                    </div>
                 </div>
 
-                <div className="a-tall-image">
-                    .a-tall-image
-                </div>
+                
                 
                 {/* <img className="a-long-image" />
                 <img className="a-tall-image" /> */}
@@ -25,7 +26,7 @@ export default function ProjectSectionA(){
                 <div className="a-text">
                     Ispo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati porro tempora explicabo ea dolores.
                 </div>
-                
+
                 <div className="a-button-container">
                 <button className="button1">
                     GitHub
