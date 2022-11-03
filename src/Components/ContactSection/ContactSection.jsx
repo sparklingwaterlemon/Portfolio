@@ -44,6 +44,12 @@ export default function ContactSection() {
         <section id="contact">
 
             <div className="marquee-container">
+                <div class="marquee-text0">
+                    <span className="c">&nbsp; CONTACT </span>
+                    <span className="c">CONTACT </span>
+                    <span className="c">CONTACT </span>
+                    <span className="c">CONTACT </span>
+                </div>
                 <div class="marquee-text1">
                     <span className="c">&nbsp; CONTACT </span>
                     <span className="c">CONTACT </span>
@@ -51,12 +57,12 @@ export default function ContactSection() {
                     <span className="c">CONTACT </span>
                 </div>
 
-                <div class="marquee-text2">
+                {/* <div class="marquee-text2">
                     <span className="c">&nbsp; CONTACT </span>
                     <span className="c">CONTACT </span>
                     <span className="c">CONTACT </span>
                     <span className="c">CONTACT </span>
-                </div>
+                </div> */}
             </div>
             
 

@@ -17,38 +17,56 @@
     
     overflow: hidden;
     white-space: nowrap; 
-    font-size: 10em;  
+    font-size: 5em;  
+}
+
+.marquee-text0{
+    color: blue;
+    display: inline-block;
+    
+    animation: marquee0 20s linear infinite;
+
 }
 
 .marquee-text1{
     color: blue;
     display: inline-block;
     
-    animation: marquee1 50s linear infinite;
+    animation: marquee1 20s linear infinite;
+
 }
-.marquee-text2{
+/* .marquee-text2{
     color: red;
     display: inline-block;
     
-    animation: marquee2 50s linear infinite;
-    animation-delay: 25s;
-}
+    animation: marquee2 20s linear infinite;
+    
+    animation-delay: 10s;
+} */
 
-@keyframes marquee1 {
+@keyframes marquee0 {
     from {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
     to {
         transform: translateX(-100%);
     }
 }
-@keyframes marquee2 {
+@keyframes marquee1 {
     from {
         transform: translateX(0%);
     }
     to {
-        transform: translateX(-200%);
+        transform: translateX(-100%);
     }
 }
+/* @keyframes marquee2 {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+} */
 
 
