@@ -27,21 +27,11 @@
     display: inline-block;
     
     animation: marquee 16s linear infinite;
+    /* animation-direction: reverse; */
 }
 .c {
     margin-right: 40px;
 }
-.marquee-text2{
-    height: inherit;
-    width: inherit;
-
-    color: red;
-    display: inline-block;
-
-    animation: marquee 16s linear infinite;
-    animation-delay: 0s;
-}
-
 @keyframes marquee {
     from {
         transform: translateX(0%);

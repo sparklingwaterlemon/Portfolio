@@ -49,8 +49,9 @@ export default function ContactSection() {
                     <span className="c">CONTACT</span>
                 </div>
 
-                <div aria-hidden="true" class="marquee-text2">
-                    CONTACT CONTACT
+                <div class="marquee-text1">
+                    <span className="c">CONTACT</span>
+                    <span className="c">CONTACT</span>
                 </div>
             </div>
             
