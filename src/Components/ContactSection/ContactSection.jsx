@@ -56,13 +56,6 @@ export default function ContactSection() {
                     <span className="c">CONTACT </span>
                     <span className="c">CONTACT </span>
                 </div>
-
-                {/* <div class="marquee-text2">
-                    <span className="c">&nbsp; CONTACT </span>
-                    <span className="c">CONTACT </span>
-                    <span className="c">CONTACT </span>
-                    <span className="c">CONTACT </span>
-                </div> */}
             </div>
             
 

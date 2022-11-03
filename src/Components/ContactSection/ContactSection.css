@@ -21,7 +21,7 @@
 }
 
 .marquee-text0{
-    color: blue;
+    color: dodgerblue;
     display: inline-block;
     
     animation: marquee0 20s linear infinite;
@@ -35,14 +35,7 @@
     animation: marquee1 20s linear infinite;
 
 }
-/* .marquee-text2{
-    color: red;
-    display: inline-block;
-    
-    animation: marquee2 20s linear infinite;
-    
-    animation-delay: 10s;
-} */
+
 
 @keyframes marquee0 {
     from {
@@ -60,13 +53,6 @@
         transform: translateX(-100%);
     }
 }
-/* @keyframes marquee2 {
-    from {
-        transform: translateX(0%);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-} */
+
 
 
