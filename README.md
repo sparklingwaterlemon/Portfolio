@@ -40,6 +40,14 @@
 - Sweetalert Success and Error message complete
 - Created and Roughed out Hero Section for iPhone 14 Plu compatilbility
 
+#### 11/1:
+- Fixed NavBar
+- Project Section A, desktop and mobile, page responsiveness CSS complete
+
+#### 11/2:
+- Fixed Netlify Deployment
+- Completed Scrolling Marquee in Contact section
+
 
 <hr/>
 
@@ -54,6 +62,12 @@
 
 
 ### Resources:
+
+#### 11/02:
+```
+https://p.bdir.in/p/infinite-continuous-marquee-css/10408
+```
+
 
 #### 10/29:
 sweetalert2*

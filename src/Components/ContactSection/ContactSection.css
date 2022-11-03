@@ -6,38 +6,48 @@
     background-color: rgba(147, 147, 147, 0.4);
 }
 
-
 .marquee-container{
     background-color: rgba(252, 127, 127,.4);
     margin-top: 10vh;
-
-    height: 20vh;
-    width: 100%;
+    
+    width: 100vw;
+    height: 30vh;
+    
+    border: 2px solid black;
     
     overflow: hidden;
-    white-space: nowrap;   
-
-    
-    font-size: 8.5em;
+    white-space: nowrap; 
+    font-size: 10em;  
 }
+
 .marquee-text1{
-    height: inherit;
-    width: inherit;
     color: blue;
     display: inline-block;
     
-    animation: marquee 16s linear infinite;
-    /* animation-direction: reverse; */
+    animation: marquee1 50s linear infinite;
 }
-.c {
-    margin-right: 40px;
+.marquee-text2{
+    color: red;
+    display: inline-block;
+    
+    animation: marquee2 50s linear infinite;
+    animation-delay: 25s;
 }
-@keyframes marquee {
+
+@keyframes marquee1 {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+@keyframes marquee2 {
     from {
         transform: translateX(0%);
     }
     to {
-        transform: translateX(-100%);
+        transform: translateX(-200%);
     }
 }
 
