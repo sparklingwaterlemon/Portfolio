@@ -1,0 +1,18 @@
+#contact{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(147, 147, 147, 0.4);
+}
+
+.marquee-container{
+    background-color: rgba(66, 214, 21, 0.4);
+    height: 20vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+.marquee{
+    padding: 0px;
+}

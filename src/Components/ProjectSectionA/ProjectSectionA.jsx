@@ -7,16 +7,17 @@ export default function ProjectSectionA(){
 
             <div className="a-image-container">
                 <div className="a-long-image">
+                    {/* <img className="a-long-image" /> */}
                     .a-long-imagefdsafdsafsad
                     <div className="a-tall-image">
                         .a-tall-image
+                        {/* <img className="a-tall-image" /> */}
                     </div>
                 </div>
 
                 
+                        
                 
-                {/* <img className="a-long-image" />
-                <img className="a-tall-image" /> */}
             </div>
 
             <div className="a-statement-container">

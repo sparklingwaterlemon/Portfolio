@@ -4,7 +4,7 @@
 
 
 /* change later, individual section may need different height */
-#github, #linkedin, #contact {
+#github, #linkedin {
   display: grid;
   place-items: center;
   height: 100vh;
@@ -14,7 +14,7 @@
   /* border: 5px dotted orange; */
 }
 
-#about, #github, #contact {
+#about, #github {
   color: #3b3b3c;
   background: #eaf2fa;
 }
