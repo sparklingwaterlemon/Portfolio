@@ -1,3 +1,4 @@
+
 #contact{
     height: 100vh;
 
@@ -62,7 +63,6 @@
 
     justify-content: center;
     align-items: flex-end;
-    
 }
 
 .contact-text{
@@ -74,14 +74,11 @@
 
     display: flex;
 
-
     text-align: justify;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 20px;
 }
-
-
 .contact-email{
     background-color: rgba(255, 234, 41, 0.4);
     
@@ -105,7 +102,6 @@
 .contact-email textarea{
     width: 100%;
 }
-
 
 
 
