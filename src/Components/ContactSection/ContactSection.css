@@ -11,7 +11,7 @@
     margin-top: 10vh;
     
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     
     border: 2px solid black;
     
@@ -19,25 +19,21 @@
     white-space: nowrap; 
     font-size: 5em;  
 }
-
 .marquee-text0{
-    color: dodgerblue;
+    color: blue;
     display: inline-block;
     
-    animation: marquee0 20s linear infinite;
+    animation: marquee0 40s linear infinite;
 
 }
-
 .marquee-text1{
     color: blue;
     display: inline-block;
     
-    animation: marquee1 20s linear infinite;
+    animation: marquee1 40s linear infinite;
 
 }
-
-
-@keyframes marquee0 {
+/* @keyframes marquee0 {
     from {
         transform: translateX(0%);
     }
@@ -52,7 +48,70 @@
     to {
         transform: translateX(-100%);
     }
+} */
+
+
+.contact-form-container{
+    background-color: rgba(0, 0, 255, 0.4);
+    width: 50vw;
+    height: 70vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.contact-text{
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    width: 30%;
+    height: 30%;
+    margin-right: 50px;
+
+    display: flex;
+
+
+    text-align: justify;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
 }
 
 
+.contact-email{
+    background-color: rgba(255, 234, 41, 0.4);
+    
+    width: 30%;
+    height: 40%;
+    margin-right: 50px;
+
+    display: flex;
+
+    text-align: justify;
+    justify-content: center;
+    align-items: flex-end;
+    
+    padding-bottom: 20px;
+}
+.contact-email input{
+    width: 100%;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+.contact-email textarea{
+    width: 100%;
+}
+
+
+
+
+.contact-image-container{
+    background-color: rgba(56, 180, 221, 0.4);
+    height: 70vh;
+    width: 50vw;
+}
 

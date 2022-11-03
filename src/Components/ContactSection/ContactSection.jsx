@@ -45,22 +45,13 @@ export default function ContactSection() {
 
             <div className="marquee-container">
                 <div class="marquee-text0">
-                    <span className="c">&nbsp; CONTACT </span>
-                    <span className="c">CONTACT </span>
-                    <span className="c">CONTACT </span>
-                    <span className="c">CONTACT </span>
+                    &nbsp;CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*
                 </div>
                 <div class="marquee-text1">
-                    <span className="c">&nbsp; CONTACT </span>
-                    <span className="c">CONTACT </span>
-                    <span className="c">CONTACT </span>
-                    <span className="c">CONTACT </span>
+                    &nbsp;CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*
                 </div>
             </div>
             
-
-
-
             <div className="contact-form-container">
                 <div className="contact-text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptatem, culpa magnam molestias consequatur at, tenetur fuga sunt unde dicta"
@@ -83,7 +74,7 @@ export default function ContactSection() {
                 </div>
             </div>
 
-            <div className="contact-image-containner">
+            <div className="contact-image-container">
                 <div className="contact-image"/>
             </div>
 
