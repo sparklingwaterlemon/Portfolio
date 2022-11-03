@@ -1,18 +1,54 @@
 #contact{
     height: 100vh;
+
     display: flex;
     flex-wrap: wrap;
     background-color: rgba(147, 147, 147, 0.4);
 }
 
+
 .marquee-container{
-    background-color: rgba(66, 214, 21, 0.4);
+    background-color: rgba(252, 127, 127,.4);
+    margin-top: 10vh;
+
     height: 20vh;
     width: 100%;
     
-    display: flex;
-    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;   
+
+    
+    font-size: 8.5em;
 }
-.marquee{
-    padding: 0px;
+.marquee-text1{
+    height: inherit;
+    width: inherit;
+    color: blue;
+    display: inline-block;
+    
+    animation: marquee 16s linear infinite;
 }
+.c {
+    margin-right: 40px;
+}
+.marquee-text2{
+    height: inherit;
+    width: inherit;
+
+    color: red;
+    display: inline-block;
+
+    animation: marquee 16s linear infinite;
+    animation-delay: 0s;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+

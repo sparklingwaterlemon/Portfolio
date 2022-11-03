@@ -44,11 +44,19 @@ export default function ContactSection() {
         <section id="contact">
 
             <div className="marquee-container">
-                <ul class="marquee-text">
-                    <li> CONTACT </li>
-                </ul>
+                <div class="marquee-text1">
+                    <span className="c">CONTACT</span>
+                    <span className="c">CONTACT</span>
+                </div>
+
+                <div aria-hidden="true" class="marquee-text2">
+                    CONTACT CONTACT
+                </div>
             </div>
             
+
+
+
             <div className="contact-form-container">
                 <div className="contact-text">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptatem, culpa magnam molestias consequatur at, tenetur fuga sunt unde dicta"
