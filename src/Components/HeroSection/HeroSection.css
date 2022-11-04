@@ -107,7 +107,7 @@
         ;
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    left: -10vw;
+    left: -20%;
     top: 100px;
     background-color: rgba(255, 154, 223, 0.4);
 
@@ -132,7 +132,7 @@
         ;
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    left: -10vw;
+    left: -20%;
     
     top: 180px;
     background-color: rgba(91, 196, 203, 0.4);
@@ -161,7 +161,7 @@
 
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    left: -10vw;
+    left: -20%;
     
     top: 160px;
     background-color: rgba(255, 255, 47, 0.4);
