@@ -76,7 +76,7 @@ export default function ContactSection() {
             </div>
 
             <div className="contact-image-container">
-                <div className="contact-image"/>
+                <div className="contact-image"></div>
             </div>
 
         </section>
