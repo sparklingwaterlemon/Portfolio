@@ -13,13 +13,16 @@
     /* background-color: rgba(252, 127, 127,.4);     */
     /* border: 2px solid black; */
 
-    height: 20vh;
+    
+    height: 190px;
+
     width: 100vw;
 
     white-space: nowrap;
     overflow: hidden;
 
-    padding-top: 5vh;
+    
+    padding-top: 70px;
     font-size: 6em;
     font-weight: 400;
 }
