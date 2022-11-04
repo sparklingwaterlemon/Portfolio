@@ -179,24 +179,23 @@
 
 @keyframes bubble{
     0% {transform: translate(0%, 0%);}
-    10% {transform: translate(10vw, -20vh);}
-    20% {transform: translate(20vw, 10vh);}
-    25% {transform: translate(25vw, -10vh);}
+    10% {transform: translate(10vw, -20%);}
+    20% {transform: translate(20vw, 10%);}
+    25% {transform: translate(25vw, -10%);}
 
-    38% {transform: translate(38vw, 33vh);}
-    42% {transform: translate(42vw, 27vh);}
+    38% {transform: translate(38vw, 35%);}
+    40% {transform: translate(40vw, 29%);}
 
-    48% {transform: translate(48vw, 42vh);}
-    50% {transform: translate(50vw, 42vh);}
-    60% {transform: translate(60vw, 42vh);}
-    61% {transform: translate(61vw, 42vh);}
+    46% {transform: translate(46vw, 42%);}
+    50% {transform: translate(50vw, 42%);}
+    59% {transform: translate(59vw, 42%);}
 
-    70% {transform: translate(70vw, 30vh);}
-    77% {transform: translate(77vw, 35vh);}
-    90% {transform: translate(90vw, 15vh);}
+    66% {transform: translate(66vw, 30%);}
+    77% {transform: translate(77vw, 35%);}
+    87% {transform: translate(87vw, 15%);}
 
-    95% {transform: translate(95vw, 10vh); margin-left: 10vw}
-    100% {transform: translate(100vw, 15vh); margin-left: 10vw;}
+    95% {transform: translate(95vw, 10%); margin-left: 10%}
+    100% {transform: translate(100vw, 15%); margin-left: 10%;}
 }
 
 
