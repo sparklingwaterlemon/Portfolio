@@ -194,8 +194,8 @@
     77% {transform: translate(77vw, 35%);}
     87% {transform: translate(87vw, 15%);}
 
-    95% {transform: translate(95vw, 10%); margin-left: 10%}
-    100% {transform: translate(100vw, 15%); margin-left: 10%;}
+    95% {transform: translate(95vw, 10%); margin-left: 20%}
+    100% {transform: translate(100vw, 15%); margin-left: 20%;}
 }
 
 
