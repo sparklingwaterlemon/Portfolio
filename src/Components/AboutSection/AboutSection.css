@@ -1,8 +1,8 @@
 #about{
     /* border: 4px dotted yellow; */
-    background-color: #bbbbbb;
+    background-color: #fcd0de;
 
-    height: 70vh;
+    height: 40vh;
     width: 100vw;
     
     display: flex;
@@ -11,18 +11,18 @@
 } 
 
 .about-container{
-    /* border: 2px dotted lightcoral; */
+    border: 2px dotted lightcoral;
 
     height: inherit;
-    width: 1000px;
+    width: 100vw;
 
     display: flex;
+    justify-content: center;;
     align-items: flex-start;
     text-align: justify;
 
     overflow: auto;
-    padding-right: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .about-text{
     width: 1000px;

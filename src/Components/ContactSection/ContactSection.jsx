@@ -20,7 +20,7 @@ export default function ContactSection() {
                     color: '#716add',
                     background: '#FCFBFB',
                     backdrop: `
-                    rgba(0,0,123,.4)
+                    rgba(252, 208, 222,.4)
                     url("https://i.imgur.com/hfPNvMU.gif")
                     left top
                     no-repeat

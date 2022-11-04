@@ -5,9 +5,9 @@
 .hero-container{
     /* border: 2px solid #d42727; */
 
-    height: 60vh;  
+    height: 70vh;  
 
-    margin-top: 10vh;
+    margin-top: 0vh;
 
     display: flex;
     justify-content: center;
