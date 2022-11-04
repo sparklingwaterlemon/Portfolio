@@ -158,11 +158,12 @@
     border: 7px solid #1c3613;
     background-color: #fcd0de;
     width: var(--contact-form-width);
-    height: 570px;
+    height: 580px;
 
-    margin-top: -20px;
+    margin-top: -30px;
     margin-left: 3vw;
     
+    border-radius: 30px;
 
     z-index: 2;
 }
