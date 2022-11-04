@@ -155,7 +155,7 @@
     align-items: flex-start;
 }
 .contact-image {
-    border: 2px solid rgb(41, 70, 24);
+    border: 7px solid #1c3613;
     background-color: #fcd0de;
     width: var(--contact-form-width);
     height: 570px;

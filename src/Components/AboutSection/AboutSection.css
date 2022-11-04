@@ -1,7 +1,7 @@
 #about{
     /* border: 4px dotted yellow; */
     background-color: rgb(42, 84, 28);
-    background: linear-gradient(#2a541c, #447633);
+    background: linear-gradient(rgb(25,25,25), #162a0f);
 
     height: 40vh;
     width: 100vw;
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: flex-start;
     
-    color: #ffaca3;
+    color: #fcd0de;
 ;
 } 
 

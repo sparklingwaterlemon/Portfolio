@@ -16,7 +16,7 @@
 }
 .hero-image{    
     /* border: 2px solid dodgerblue; */
-    background-color: #fcd0de;
+    background-color: rgba(252, 200, 216,.4);
 
     position: absolute;
     height: inherit;
@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     
-    color: rgb(255, 255, 119);
+    color: #152a0d;
     z-index: 1;
 }
 .ht{
