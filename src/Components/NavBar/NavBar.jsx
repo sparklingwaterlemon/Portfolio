@@ -42,7 +42,7 @@ export default function NavBar() {
         </button>
         
         {/* Hamburger Animation - Currently Ice Boxed */}
-        {/* <div class="ham-container">
+        {/* <div className="ham-container">
           <span className={isNavExpanded ? "ham on t" : "ham off t"} > &nbsp;</span>
           <span className={isNavExpanded ? "ham on m" : "ham off m"} > &nbsp;</span>
           <span className={isNavExpanded ? "ham on b" : "ham off b"} > &nbsp;</span>

@@ -1,7 +1,37 @@
 import "./HeroSection.css";
 import HEROIMAGES from "../../Assets/Images/index";
+import { useState } from "react";
+import { useEffect } from "react";
 
 export default function HeroSection(){
+    const [spotLight1,setSpotLight1] = useState(true);
+    const [spotLight2,setSpotLight2] = useState(true);
+    const [spotLight3,setSpotLight3] = useState(true);
+
+    useEffect(()=>{
+        console.log("bubble-timer-1")
+
+        setTimeout(()=>{
+            setSpotLight1(true)
+        }, 50000);
+    },[spotLight1]);
+
+    useEffect(()=>{
+        console.log("bubble-timer-2")
+
+        setTimeout(()=>{
+            setSpotLight1(true)
+        }, 50000);
+    },[spotLight2]);
+
+    useEffect(()=>{
+        console.log("bubble-timer-3")
+        
+        setTimeout(()=>{
+            setSpotLight1(true)
+        }, 50000);
+    },[spotLight3])
+
     return (
         <>
         <section id="hero">
@@ -31,6 +61,12 @@ export default function HeroSection(){
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut facere vel reprehenderit adipisci maiores, labore, repudiandae repellat odit at amet doloremque! Numquam, ex a tenetur corrupti quidem molestiae quaerat quo?
                     </span>
                 </div>
+
+            <div className="spotlight-holder">
+                <button onClick={()=>{setSpotLight1(false)}} className={ spotLight1 ? "spotlight1" : "pop"} />
+                <button onClick={()=>{setSpotLight2(false)}} className={ spotLight2 ? "spotlight2" : "pop"} />
+                <button onClick={()=>{setSpotLight3(false)}} className={ spotLight3 ? "spotlight3" : "pop"} />
+            </div>
 
             </div>
         </section>

@@ -44,10 +44,10 @@ export default function ContactSection() {
         <section id="contact">
 
             <div className="marquee-container">
-                <div class="marquee-text0">
+                <div className="marquee-text0">
                     &nbsp;CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*
                 </div>
-                <div class="marquee-text1">
+                <div className="marquee-text1">
                     &nbsp;CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*
                 </div>
             </div>

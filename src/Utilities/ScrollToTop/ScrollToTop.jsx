@@ -22,7 +22,7 @@ export default function ScrollToTop(){
   useEffect(()=>{
     window.addEventListener("scroll", checkScrollTop);
     // window.removeEventListener("scroll", checkScrollTop);
-    console.log("dependencey array")
+    console.log("scroll-to-top")
   });
 
 
