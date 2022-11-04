@@ -5,6 +5,7 @@ import HeroSection from '../../Components/HeroSection/HeroSection';
 import AboutSection from '../../Components/AboutSection/AboutSection';
 
 import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
+
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import FooterSection from '../../Components/FooterSection/FooterSection';
 
@@ -15,22 +16,18 @@ export default function App() {
 
   return (
     <>
-    {/* <div className="container"> */}
-    
       <NavBar />
       <HeroSection />
       <AboutSection />
-      <ProjectSectionA />
+      {/* <ProjectSectionA /> */}
       <section id="github">GitHub</section>
       <section id="linkedin">LinkedIn</section>
       <ContactSection />
-      <FooterSection />
+      {/* <FooterSection /> */}
 
-    {/* </div> */}
-    
-    <ScrollToTop />
+      <ScrollToTop />
 
-  </>
+    </>
   );
 }
 

@@ -1,8 +1,29 @@
 #about{
-    height: 100vh;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    font-size: 32px;
-    font-weight: bold;
+    /* border: 4px dotted yellow; */
+    background-color: #bbbbbb;
+
+    height: 70vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} 
+
+.about-container{
+    /* border: 2px dotted lightcoral; */
+
+    height: inherit;
+    width: 1000px;
+
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+
+    overflow: auto;
+    padding-right: 20px;
+    font-size: 1.2em;
+}
+.about-text{
+    width: 1000px;
 }
