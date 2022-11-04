@@ -13,7 +13,7 @@ export default function HeroSection(){
 
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 50000);
+        }, 55000);
     },[spotLight1]);
 
     useEffect(()=>{
@@ -21,7 +21,7 @@ export default function HeroSection(){
 
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 50000);
+        }, 55000);
     },[spotLight2]);
 
     useEffect(()=>{
@@ -29,7 +29,7 @@ export default function HeroSection(){
         
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 50000);
+        }, 55000);
     },[spotLight3])
 
     return (
