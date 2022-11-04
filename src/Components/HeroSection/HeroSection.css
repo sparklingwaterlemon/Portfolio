@@ -107,7 +107,7 @@
         ;
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    left: -175px;
+    left: -10vw;
     top: 100px;
     background-color: rgba(255, 154, 223, 0.4);
 
@@ -132,7 +132,7 @@
         ;
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    left: -175px;
+    left: -10vw;
     
     top: 180px;
     background-color: rgba(91, 196, 203, 0.4);
@@ -161,7 +161,7 @@
 
     border-radius: 50% 50% 50% 50%;
     position: absolute;
-    left: -175px;
+    left: -10vw;
     
     top: 160px;
     background-color: rgba(255, 255, 47, 0.4);
@@ -172,23 +172,31 @@
 }
 .spotlight3:hover{
     background-color: rgba(255, 255, 47, 0.25);
-    box-shadow: 0px 0px 30px #ffeec3;
+    box-shadow: 0px 0px 30px #fff6df;
     animation-play-state: paused;
 }
 
 
 @keyframes bubble{
-    0% {transform: translate(0px, 0px);}
-    10% {transform: translate(200px, -120px);}
-    20% {transform: translate(400px, -240px);}
-    30% {transform: translate(600px, 210px);}
-    40% {transform: translate(800px, 210px);}
-    50% {transform: translate(1000px, -100px);}
-    60% {transform: translate(1200px, -70px);}
-    70% {transform: translate(1400px, -155px);}
-    80% {transform: translate(1600px, 0px);}
-    90% {transform: translate(1800px, -230x);}
-    100% {transform: translate(2000px, -60px);}
+    0% {transform: translate(0%, 0%);}
+    10% {transform: translate(10vw, -20vh);}
+    20% {transform: translate(20vw, 10vh);}
+    25% {transform: translate(25vw, -10vh);}
+
+    38% {transform: translate(38vw, 33vh);}
+    42% {transform: translate(42vw, 27vh);}
+
+    48% {transform: translate(48vw, 42vh);}
+    50% {transform: translate(50vw, 42vh);}
+    60% {transform: translate(60vw, 42vh);}
+    61% {transform: translate(61vw, 42vh);}
+
+    70% {transform: translate(70vw, 30vh);}
+    77% {transform: translate(77vw, 35vh);}
+    90% {transform: translate(90vw, 15vh);}
+
+    95% {transform: translate(95vw, 10vh); margin-left: 10vw}
+    100% {transform: translate(100vw, 15vh); margin-left: 10vw;}
 }
 
 
