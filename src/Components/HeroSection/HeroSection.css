@@ -4,11 +4,11 @@
 
 .hero-container{
     background: rgba(212, 39, 39, 0.4);
-    
-    
-    margin-top: 10vh;
-    
     height: 70vh;
+    margin-top: 10vh;
+
+    
+        
 
     display: flex;
     justify-content: center;

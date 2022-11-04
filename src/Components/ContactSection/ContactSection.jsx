@@ -54,22 +54,23 @@ export default function ContactSection() {
             
             <div className="contact-form-container">
                 <div className="contact-text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptatem, culpa magnam molestias consequatur at, tenetur fuga sunt unde dicta"
+                    Lorem ipsum, dolor sit. attenetur fuga sunt unde dicta"
                 </div>
                 <div className="contact-email">
                     <form ref={form} onSubmit={sendEmail}>
-                        <label>Name</label>
-                        <input type="text" name="user_name" autoComplete="off" required/>
+                        <label>Name* </label>
+                        <input className="fi" type="text" name="user_name" autoComplete="off" required/>
 
-                        <label>Email</label>
-                        <input type="email" name="user_email" autoComplete="off" required/>
+                        <label>Email*</label>
+                        <input className="fi" type="email" name="user_email" autoComplete="off" required/>
 
                         <label>Subject</label>
-                        <input type="text" name="email_subject" autoComplete="off"/>
+                        <input className="fi" type="text" name="email_subject" autoComplete="off"/>
 
-                        <label>Message</label>
+                        <label>Message*</label>
                         <textarea name="email_message" autoComplete="off" required/>
-                        <input type="submit" value="Send" />
+
+                        <input id="contact-button" type="submit" value="Submit" />
                     </form>
                 </div>
             </div>
@@ -79,5 +80,7 @@ export default function ContactSection() {
             </div>
 
         </section>
+
+        
     );
 };
