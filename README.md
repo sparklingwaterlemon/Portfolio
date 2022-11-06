@@ -48,6 +48,19 @@
 - Fixed Netlify Deployment
 - Completed Scrolling Marquee in Contact section
 
+#### 11/3:
+- Redid Marquee Scroll
+- Roughed Out Footer
+- Completed Contact Form CSS
+- Completed Hero Section CSS
+- Changed CSS to Pink
+
+#### 11/4: 
+- Created some Baubles
+- Created Bauble Animation
+- Added Bauble Button - freeze
+- Added Bauble button - pop
+
 
 <hr/>
 
