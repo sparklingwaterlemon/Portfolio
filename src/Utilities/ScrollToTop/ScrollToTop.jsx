@@ -38,8 +38,8 @@ export default function ScrollToTop(){
   return (
     <>
     {showScroll ? 
-        <button onClick={scrollToTop} className="back-to-top">
-        <span>&#8679;</span>
+        <button onClick={scrollToTop} className="scroll-button">
+          <span className="s-arrow">&#8679;</span>
         </button>
     : false}    
     </>
