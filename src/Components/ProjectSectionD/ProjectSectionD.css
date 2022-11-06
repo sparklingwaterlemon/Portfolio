@@ -9,7 +9,7 @@
     /* border: 4px dotted orange; */
     margin-top: 10vh;
     width: 50vw;
-    height: 70vh;
+    height: 75vh;
 
     display: flex;
     align-items: center;
@@ -45,12 +45,13 @@
 }
 .pd-button{
     width: 125px;
-    height: 50px; 
-    background-color: #fcf8ea;
-    border: 2px solid  rgb(69, 69, 69);
+    height: 55px; 
+    background-color: #c1fbb0;
+    color: #54c531;
+
+    border: 2.5px solid  #2f7819;
     font-size: 1.3em;
-    color: rgb(0, 105, 111);
-    transition: background-color .6s, color .5s, border 1s ease-in;
+    transition: background-color .6s, color .5s, border .8s ease-in;
     cursor: pointer;
 }
 .pd-button.yt{
@@ -59,7 +60,7 @@
     border-style: solid none solid solid;
 }
 .pd-button.gg{
-    width: 100px;
+    width: 110px;
     border-radius: 0px 12px 12px 0px;
     border-style: solid solid solid none;
 }
@@ -68,11 +69,11 @@
     color: white;
 }
 .pd-button.yt:hover{
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-style: solid none solid solid;
 }
 .pd-button.gg:hover{
-    border: 2px solid white;
+    border: 2.5px solid white;
     border-style: solid solid solid none;
 }
 
@@ -81,8 +82,20 @@
 
 .right-container{
     background-color: lightgoldenrodyellow;
-    border: 3px dotted black;
+    background-color: rgb(189, 189, 189);
+
+    /* border: 3px dotted black; */
     margin-top: 10vh;
     width: 50vw;
-    height: 70vh;
+    height: 75vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.right-image-container{
+    height: 440px;
+    width: 480px;
+    background-color: #c1fbb0;
+    border: 10px solid green;
 }
