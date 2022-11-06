@@ -3,7 +3,7 @@ import "./ProjectSectionD.css";
 export default function ProjectSectionD(){
     return(
         <section id="projects">
-            <div className="left-container">
+            <div className="pd-left-container">
                 <div className="pd-info-container">
                     <div className="pd-title">
                         Craps
@@ -23,8 +23,8 @@ export default function ProjectSectionD(){
             </div>
 
 
-            <div className="right-container">
-                <div className="right-image-container">
+            <div className="pd-right-container">
+                <div className="pd-right-image-container">
                     <div className="right-test-image"/>
                 </div>
             </div>

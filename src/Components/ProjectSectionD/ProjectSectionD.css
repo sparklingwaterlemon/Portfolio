@@ -4,12 +4,13 @@
     display: flex;
     flex-wrap: wrap;
 }
-.left-container{
+.pd-left-container{
     background-color: rgb(189, 189, 189);
     /* border: 4px dotted orange; */
     margin-top: 10vh;
-    width: 50vw;
     height: 75vh;
+    
+    width: 50vw;
 
     display: flex;
     align-items: center;
@@ -24,6 +25,8 @@
     position: relative;
     right: 75px;
     text-align: center;
+
+    /* margin-right: 10px; */
 }
 
 .pd-title{
@@ -80,7 +83,7 @@
 
 
 
-.right-container{
+.pd-right-container{
     background-color: lightgoldenrodyellow;
     background-color: rgb(189, 189, 189);
 
@@ -92,10 +95,15 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    
 }
-.right-image-container{
+.pd-right-image-container{
     height: 440px;
     width: 480px;
     background-color: #c1fbb0;
     border: 10px solid green;
+    
+    /* position: relative;
+    left: -10px */
 }
