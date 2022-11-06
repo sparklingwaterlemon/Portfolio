@@ -4,7 +4,8 @@ import NavBar from '../../Components/NavBar/NavBar';
 import HeroSection from '../../Components/HeroSection/HeroSection';
 import AboutSection from '../../Components/AboutSection/AboutSection';
 
-import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
+// import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
+import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
 
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import FooterSection from '../../Components/FooterSection/FooterSection';
@@ -19,9 +20,12 @@ export default function App() {
       <NavBar />
       <HeroSection />
       <AboutSection />
+
+
       {/* <ProjectSectionA /> */}
-      <section id="github">GitHub</section>
-      <section id="linkedin">LinkedIn</section>
+      <ProjectSectionD />
+      {/* <section id="github">GitHub</section> */}
+      {/* <section id="linkedin">LinkedIn</section> */}
       <ContactSection />
       {/* <FooterSection /> */}
 

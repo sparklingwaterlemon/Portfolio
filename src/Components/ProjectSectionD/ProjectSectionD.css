@@ -1,0 +1,88 @@
+#projects{
+    height: 100vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-container{
+    background-color: rgb(189, 189, 189);
+    /* border: 4px dotted orange; */
+    margin-top: 10vh;
+    width: 50vw;
+    height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+.pd-info-container{
+    /* background-color: rgba(232, 167, 54, 0.431);   */
+    
+    width: 400px;
+    position: relative;
+    right: 75px;
+    text-align: center;
+}
+
+.pd-title{
+    /* outline: 2px solid orange; */
+    font-size: 2em;
+    padding: 10px 0px 0px 0px;
+}
+.pd-text{
+    /* outline: 2px solid plum; */
+    font-size: 1em;
+    padding: 20px 0px 0px 0px;
+}
+
+.pd-link-container{
+    /* outline: 2px solid gainsboro; */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.pd-button{
+    width: 125px;
+    height: 50px; 
+    background-color: #fcf8ea;
+    border: 2px solid  rgb(69, 69, 69);
+    font-size: 1.3em;
+    color: rgb(0, 105, 111);
+    transition: background-color .6s, color .5s, border 1s ease-in;
+    cursor: pointer;
+}
+.pd-button.yt{
+    width: 75px;
+    border-radius: 12px 0px 0px 12px;
+    border-style: solid none solid solid;
+}
+.pd-button.gg{
+    width: 100px;
+    border-radius: 0px 12px 12px 0px;
+    border-style: solid solid solid none;
+}
+.pd-button:hover{
+    background-color: black;
+    color: white;
+}
+.pd-button.yt:hover{
+    border: 2px solid white;
+    border-style: solid none solid solid;
+}
+.pd-button.gg:hover{
+    border: 2px solid white;
+    border-style: solid solid solid none;
+}
+
+
+
+
+.right-container{
+    background-color: lightgoldenrodyellow;
+    border: 3px dotted black;
+    margin-top: 10vh;
+    width: 50vw;
+    height: 70vh;
+}

@@ -25,13 +25,13 @@ export default function ProjectSectionA(){
                 </div>
 
                 <div className="a-button-container">
-                <button className="button1">
-                    GitHub
-                </button>
-                <button className="button2">
-                    Live Link
-                </button>
-            </div>
+                    <button className="button1">
+                        GitHub
+                    </button>
+                    <button className="button2">
+                        Live Link
+                    </button>
+                </div>
             </div>
          
 
