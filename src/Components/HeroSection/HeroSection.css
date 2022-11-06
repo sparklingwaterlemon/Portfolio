@@ -112,7 +112,6 @@
     background-color: rgba(255, 154, 223, 0.4);
 
     animation: bubble 30s linear infinite;
-    animation-delay: 1.24s;
     border: none;
 }
 .spotlight1:hover{
@@ -138,7 +137,7 @@
     background-color: rgba(91, 196, 203, 0.4);
 
     animation: bubble 40s linear infinite;
-    animation-delay: 5.13s;
+    animation-delay: 4.83s;
 
     border: none;
 }
@@ -167,7 +166,7 @@
     background-color: rgba(255, 255, 47, 0.4);
 
     animation: bubble 30s linear infinite;
-    animation-delay: 9.78s;
+    animation-delay: 8.29s;
     border: none;
 }
 .spotlight3:hover{
