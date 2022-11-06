@@ -1,5 +1,5 @@
 import "./HeroSection.css";
-import HEROIMAGES from "../../Assets/Images/index";
+// import HEROIMAGES from "../../Assets/Images/index";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -13,7 +13,7 @@ export default function HeroSection(){
 
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 55000);
+        }, 14000);
     },[spotLight1]);
 
     useEffect(()=>{
@@ -21,7 +21,7 @@ export default function HeroSection(){
 
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 55000);
+        }, 14000);
     },[spotLight2]);
 
     useEffect(()=>{
@@ -29,7 +29,7 @@ export default function HeroSection(){
         
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 55000);
+        }, 14000);
     },[spotLight3])
 
     return (
