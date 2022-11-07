@@ -29,7 +29,7 @@ export default function App() {
       {/* <ContactSection /> */}
       {/* <FooterSection /> */}
 
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
 
     </>
   );
