@@ -37,8 +37,12 @@ export default function HeroSection(){
         <section id="hero">
 
             <div className="hero-container">  
-                <div className="hero-image"/>
+                <div className="hero-image">
                 {/* <img src={HEROIMAGES[0].img} className="hero-image"/> */}
+                    <button onClick={()=>{setSpotLight1(false)}} className={ spotLight1 ? "spotlight1" : "pop"} />
+                    <button onClick={()=>{setSpotLight2(false)}} className={ spotLight2 ? "spotlight2" : "pop"} />
+                    <button onClick={()=>{setSpotLight3(false)}} className={ spotLight3 ? "spotlight3" : "pop"} />
+                </div>
                 <div className="hero-title">
                     <span className="ht">Full-Stack Developer</span>
                     <span className="hn">Michael Kim</span>
@@ -58,11 +62,7 @@ export default function HeroSection(){
                 </div>
             </div>
 
-            <div className="spotlight-holder">
-                <button onClick={()=>{setSpotLight1(false)}} className={ spotLight1 ? "spotlight1" : "pop"} />
-                <button onClick={()=>{setSpotLight2(false)}} className={ spotLight2 ? "spotlight2" : "pop"} />
-                <button onClick={()=>{setSpotLight3(false)}} className={ spotLight3 ? "spotlight3" : "pop"} />
-            </div>
+
 
         </section>
         </>
