@@ -18,9 +18,10 @@
     justify-content: center;;
     align-items: flex-start;
     text-align: justify;
-    overflow: auto;
+    
     font-size: 1.1em;   
 }
 .about-text{
     width: 1000px;
+    overflow: auto;
 }
