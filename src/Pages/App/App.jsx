@@ -5,12 +5,12 @@ import HeroSection from '../../Components/HeroSection/HeroSection';
 import AboutSection from '../../Components/AboutSection/AboutSection';
 import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
 import ContactSection from '../../Components/ContactSection/ContactSection';
+import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
+
 
 // import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
 
 // import FooterSection from '../../Components/FooterSection/FooterSection';
-
-import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
 
 
 export default function App() {
@@ -22,8 +22,7 @@ export default function App() {
       <AboutSection />
       <ProjectSectionD />
       <ContactSection />
-
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
 
       {/* <FooterSection /> */}
       {/* <ProjectSectionA /> */}
