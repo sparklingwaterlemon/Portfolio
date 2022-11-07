@@ -15,7 +15,7 @@
 }
 .hero-image{    
     /* border: 2px solid dodgerblue; */
-    background-color: rgba(252, 200, 216,.4);
+    background-color: rgb(30, 30, 208);
     height: inherit;
     width: 100%;
     position: absolute;
@@ -30,7 +30,7 @@
     width: 400px;    
     display: flex;
     flex-direction: column;
-    color: #152a0d;
+    color: rgb(239, 239, 239);
     z-index: 1;
 }
 .ht{
@@ -91,17 +91,17 @@
 
     border: none;
     border-radius: 50% 50% 50% 50%;
-    background-color: rgba(255, 154, 223, .45);
+    background-color: rgba(255, 154, 223, .8);
     box-shadow: 
-        0px 0px 11px #8fe7ff,
-        0px 0px 6px #ffc3fd,
-        0px 0px 5px #fd53ec,
-        0px 0px 1px #000000;
+    2px 0px 30px #ffffff,
+    -2px 0px 30px #fdfdfd,
+    0px 2px 30px #f5c3f7,
+    0px -2px 0px #fed3ff;
     animation: bubble 30s linear infinite;
 }
 .spotlight1:hover{
-    background-color: rgba(255, 154, 223, 0.25);
-    box-shadow: 0px 0px 30px #ffdffe;
+    background-color: rgba(255, 154, 223, 0.6);
+    outline: 2px dotted white;
     animation-play-state: paused;
 }
 .spotlight2{
@@ -113,7 +113,7 @@
     
     border: none;
     border-radius: 50% 50% 50% 50%;
-    background-color: rgba(91, 196, 203, 0.4);
+    background-color: rgba(91, 196, 203, 0.8);
     box-shadow: 
         2px 0px 30px #affee4,
         -2px 0px 30px #dafdff,
@@ -123,8 +123,8 @@
     animation-delay: 1.33s;
 }
 .spotlight2:hover{
-    background-color: rgba(91, 196, 203, 0.25);
-    box-shadow: 0px 0px 30px #affee4;
+    background-color: rgba(91, 196, 203, .3);
+    outline: 2px dotted white;
     animation-play-state: paused;
 }
 .spotlight3{
@@ -136,18 +136,18 @@
 
     border: none;
     border-radius: 50% 50% 50% 50%;
-    background-color: rgba(255, 255, 47, 0.4);
+    background-color: rgba(255, 255, 47, 0.8);
     box-shadow: 
-        1px 0px 30px #afe6fe,
-        -1px 0px 30px #e0ffda,
-        0px 1px 30px #ffeec3,
-        0px -1px 0px #ffffff;
+    2px 0px 30px #f1feaf,
+    2px 0px 30px #f4f4c0,
+    0px 2px 30px #fdffcb,
+    0px -2px 0px #ffffff;
     animation: bubble 30s linear infinite;
     animation-delay: 4.29s;
 }
 .spotlight3:hover{
-    background-color: rgba(255, 255, 47, 0.25);
-    box-shadow: 0px 0px 30px #fff6df;
+    background-color: rgba(255, 255, 47, 0.7);
+    outline: 2px dotted white;
     animation-play-state: paused;
 }
 @keyframes bubble{

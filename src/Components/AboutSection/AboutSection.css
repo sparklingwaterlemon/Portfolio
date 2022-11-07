@@ -1,10 +1,10 @@
 #about{
-    color: #fcd0de;
+    color: #f1b1c6;
     background-color: rgb(42, 84, 28);
     /* border: 4px dotted yellow; */
     height: 40vh;
     width: 100%;
-    background: linear-gradient(rgb(25,25,25), #162a0f);
+    background: linear-gradient(#191919,#191919, #244319);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -16,13 +16,19 @@
     width: 100%;
     display: flex;
     justify-content: center;;
-    align-items: flex-start;
+    align-items: center;
     text-align: justify;
-    overflow: auto;
     
+
     font-size: 1.1em;   
 }
 .about-text{
-    width: 1000px;
+    /* border: 2px dotted lightcoral; */
+
+    height: 80%;
+    width: 800px;
+    padding-right: 20px;
+    overflow: auto;
+
     
 }

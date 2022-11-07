@@ -22,7 +22,6 @@ export default function ProjectSectionD(){
                 </div>
             </div>
 
-
             <div className="pd-right-container">
                 <div className="pd-right-image-container">
                     <div className="right-test-image"/>
