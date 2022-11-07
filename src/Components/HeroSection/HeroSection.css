@@ -1,15 +1,13 @@
 #hero{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 .hero-container{
     /* border: 2px solid #d42727; */
-
-    height: 70vh;  
-
     margin-top: 0vh;
-
+    height: 70vh;
+    width: 100%;  
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -18,37 +16,29 @@
 .hero-image{    
     /* border: 2px solid dodgerblue; */
     background-color: rgba(252, 200, 216,.4);
-
-    position: absolute;
     height: inherit;
-    width: 100vw;
-
+    width: 100%;
+    position: absolute;
     object-fit: none;
-    /* object-position: 55% 40%; */
     z-index: 0;
+    /* object-position: 55% 40%; */
 }
 .hero-title{
     /* border: 2px solid #16c024; */
-    
     height: 160px;
-    width: 400px;
-
-    
+    width: 400px;    
     display: flex;
     flex-direction: column;
-    
     color: #152a0d;
     z-index: 1;
 }
 .ht{
     /* border: 2px solid #5d1c6e; */
-
     font-size: 1em;
     padding-bottom: 10px;
 }
 .hn{
     /* border: 2px solid #000000; */
-
     font-size: 3em;
     font-weight: 500;
 }
@@ -56,20 +46,16 @@
 
 .title-container{
     /* border: 3px solid rgba(104, 41, 221); */
-    
     height: 30vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     text-align: center;
 }
 .pb-title{
     /* border: 2px solid rgb(255, 62, 239); */
-    
-    height: 50vh;
-    width: 50vw;
+    height: 50%;
+    width: 50%;
     width: 650px;
     
     display: flex;
@@ -81,12 +67,10 @@
     font-size: 2em;
     font-weight: 400;
 }
-
 .pb-text{
     /* border: 2px solid cyan; */
-    height: 50vh;
+    height: 50%;
     width: 1000px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,84 +83,73 @@
     z-index: 2;
 }
 .spotlight1{
-    width: 150px;
-    height: 150px;
-    box-shadow: 
-        3px 0px 20px #faffc3,
-        0px 3px 20px #ffc3fd,
-        0px 0px 10px #ffffff
-        ;
-    border-radius: 50% 50% 50% 50%;
     position: absolute;
     left: -6%;
     top: 100px;
-    background-color: rgba(255, 154, 223, 0.4);
+    height: 150px;
+    width: 150px;
 
-    animation: bubble 30s linear infinite;
     border: none;
+    border-radius: 50% 50% 50% 50%;
+    background-color: rgba(255, 154, 223, .45);
+    box-shadow: 
+        0px 0px 11px #8fe7ff,
+        0px 0px 6px #ffc3fd,
+        0px 0px 5px #fd53ec,
+        0px 0px 1px #000000;
+    animation: bubble 30s linear infinite;
 }
 .spotlight1:hover{
     background-color: rgba(255, 154, 223, 0.25);
     box-shadow: 0px 0px 30px #ffdffe;
     animation-play-state: paused;
 }
-
 .spotlight2{
-    width: 100px;
+    position: absolute;
+    left: -20%;
+    top: 180px;
     height: 100px;
+    width: 100px;
+    
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    background-color: rgba(91, 196, 203, 0.4);
     box-shadow: 
         2px 0px 30px #affee4,
         -2px 0px 30px #dafdff,
         0px 2px 30px #f9ffc3,
-        0px -2px 0px #ffffff
-        ;
-    border-radius: 50% 50% 50% 50%;
-    position: absolute;
-    left: -20%;
-    
-    top: 180px;
-    background-color: rgba(91, 196, 203, 0.4);
-
+        0px -2px 0px #ffffff;
     animation: bubble 40s linear infinite;
     animation-delay: 1.33s;
-
-    border: none;
 }
 .spotlight2:hover{
     background-color: rgba(91, 196, 203, 0.25);
     box-shadow: 0px 0px 30px #affee4;
     animation-play-state: paused;
-  
 }
-
 .spotlight3{
-    width: 60px;
+    position: absolute;
+    left: -20%;
+    top: 160px;
     height: 60px;
+    width: 60px;
+
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+    background-color: rgba(255, 255, 47, 0.4);
     box-shadow: 
         1px 0px 30px #afe6fe,
         -1px 0px 30px #e0ffda,
         0px 1px 30px #ffeec3,
-        0px -1px 0px #ffffff
-        ;
-
-    border-radius: 50% 50% 50% 50%;
-    position: absolute;
-    left: -20%;
-    
-    top: 160px;
-    background-color: rgba(255, 255, 47, 0.4);
-
+        0px -1px 0px #ffffff;
     animation: bubble 30s linear infinite;
     animation-delay: 4.29s;
-    border: none;
 }
 .spotlight3:hover{
     background-color: rgba(255, 255, 47, 0.25);
     box-shadow: 0px 0px 30px #fff6df;
     animation-play-state: paused;
 }
-
-
 @keyframes bubble{
     0% {transform: translate(0%, 0%);}
     10% {transform: translate(10vw, -20%);}
@@ -197,14 +170,15 @@
     95% {transform: translate(95vw, 10%); margin-left: 20%}
     100% {transform: translate(100vw, 15%); margin-left: 20%;}
 }
-
-
-
-
-
 .pop{
     display: none;
 }
+
+
+
+
+
+
 
 
 /* 
