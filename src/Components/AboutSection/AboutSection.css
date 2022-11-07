@@ -4,7 +4,7 @@
     background: linear-gradient(rgb(25,25,25), #162a0f);
 
     height: 40vh;
-    width: 100vw;
+    width: 100%;
     
     display: flex;
     justify-content: center;
