@@ -61,7 +61,11 @@
 - Added Bauble Button - freeze
 - Added Bauble button - pop
 
+#### 11/5 (afterhours):
+- Baubles start on load - no delay
 
+#### 11/6
+- Bug on display.... works with Google Inspect but on Macbook Air, element's do not line up..
 <hr/>
 
 
