@@ -1,26 +1,23 @@
 #about{
+    color: #fcd0de;
+    background-color: rgb(42, 84, 28);
+    /* border: 4px dotted yellow; */
     height: 40vh;
     width: 100vw;
-
-    /* border: 4px dotted yellow; */
-    background-color: rgb(42, 84, 28);
     background: linear-gradient(rgb(25,25,25), #162a0f);
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    color: #fcd0de;
 } 
 
 .about-container{
     /* border: 2px dotted lightcoral; */
     height: 100%;
     width: 100%;
-
     display: flex;
     justify-content: center;;
     align-items: flex-start;
     text-align: justify;
-
     overflow: auto;
     font-size: 1.1em;   
 }

@@ -19,7 +19,7 @@ export default function App() {
     <>
       {/* <NavBar /> */}
       <HeroSection />
-      {/* <AboutSection /> */}
+      <AboutSection />
 
 
       {/* <ProjectSectionA /> */}
