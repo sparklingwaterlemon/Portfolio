@@ -2,7 +2,7 @@ import './App.css';
 
 // import NavBar from '../../Components/NavBar/NavBar';
 import HeroSection from '../../Components/HeroSection/HeroSection';
-// import AboutSection from '../../Components/AboutSection/AboutSection';
+import AboutSection from '../../Components/AboutSection/AboutSection';
 
 // import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
 import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
