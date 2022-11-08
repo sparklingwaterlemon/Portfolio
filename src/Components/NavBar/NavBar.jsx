@@ -32,7 +32,7 @@ export default function NavBar() {
       <nav className="nav-bar">
       {/* <nav className={navBarColor ? "nav-bar change" : "nav-bar"}> */}
         
-        <Link className="nav-home" activeClass="active" smooth spy to="hero" onClick={() => window.scrollTo({top: 0,left: 0,})}>
+        <Link className="nav-home" activeClass="active" smooth spy to="hero" onClick={() => window.scrollTo({top: 0,left: 0, behavior: "smooth"})}>
           Mike
         </Link>
         
