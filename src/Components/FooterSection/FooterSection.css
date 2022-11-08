@@ -101,7 +101,7 @@
 
 
 .self-footer{
-    outline: 2px dashed whitesmoke;
+    /* outline: 2px dashed whitesmoke; */
     width: calc(var(--width) + 50px);
     height: var(--height);
     display: flex;
