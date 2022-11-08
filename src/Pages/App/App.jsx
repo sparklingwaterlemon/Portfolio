@@ -6,11 +6,11 @@ import AboutSection from '../../Components/AboutSection/AboutSection';
 import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
+import FooterSection from '../../Components/FooterSection/FooterSection';
 
 
 // import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
 
-// import FooterSection from '../../Components/FooterSection/FooterSection';
 
 
 export default function App() {
@@ -23,8 +23,8 @@ export default function App() {
       <ProjectSectionD />
       <ContactSection />
       <ScrollToTop />
+      <FooterSection />
 
-      {/* <FooterSection /> */}
       {/* <ProjectSectionA /> */}
       {/* <section id="github">GitHub</section> */}
       {/* <section id="linkedin">LinkedIn</section> */}

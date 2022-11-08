@@ -1,63 +1,95 @@
 #footer{
     height: 30vh;
-    background-color: rgba(60, 60, 60, 0.4);
-    
+    width: 100%;
+    background-color: rgb(93, 93, 93);
     display: flex;
     justify-content: center;
     align-items: center;
-
     text-align: center;
-
-    --width: 20vw;
     --height: 25vh;
+    --width: 20%;
 }
-
 .resume-footer{
-    background-color: rgba(127, 255, 212, 0.4);
+    border: 2px solid rgba(127, 255, 212);
     width: var(--width);
     height: var(--height);
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 }
 .rf{
-    background-color: rgba(0, 0, 255, 0.4);
+    height: 75px;
+    width: 100%;
     border: 2px solid orange;
-    padding: 10px;
-    margin: 20px;
+    font-size: 2em;
+    text-decoration: underline;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .follow-footer{
-    background-color: rgba(127, 255, 131, 0.4);
-    width: var(--width);
+    border: 2px solid limegreen;
     height: var(--height);
-
+    width: var(--width);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
 }
 .ff{
-    background-color: rgba(0, 0, 255, 0.4);
-    border: 2px solid orange;
-    padding: 10px;
+    border: 1px solid orange;
+    width: 100%;
+}
+.ff.top{
+    height: 75px;
+    width: 100%;
+    font-size: 2.3em;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ff.bottom{
+    height: calc(100% - 75px);
+    width: 100%;
+    font-size: .9em;
+}
+.ff-link{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid pink;
+    color: #e4e4e4;
 }
 
 
 .link-footer{
-    background-color: rgba(255, 208, 127, 0.4);
+    border: 2px solid rgb(255, 208, 127);
     width: var(--width);
     height: var(--height);
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
-.lf{
-    background-color: rgba(0, 0, 255, 0.4);
-    border: 2px solid orange;
-    padding: 10px;
+.lf.top{
+    border: 2px solid limegreen;
+    height: 75px;
+    width: 100%;
+    font-size: 2.3em;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.lf.bottom{
+    border: 1px solid pink;
+    height: calc(100% - 75px);
+    font-size: .9em;
+    color: #e4e4e4;
+}
+
 
 
 

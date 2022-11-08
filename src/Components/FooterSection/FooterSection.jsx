@@ -4,21 +4,36 @@ import "./FooterSection.css";
 export default function FooterSection(){
     return (
         <section id="footer">
-            <div className="resume-footer">
-                <span className="rf">Resume</span>
-                <span className="rf">Projects</span>
-            </div>
-            <div className="follow-footer">
-                <span className="ff">Links</span>
-                <span className="ff">Follow my Workouts: fitnessubstack</span>
-                <span className="ff">Follow my Music: tuneinwithmike@substack</span>
 
+            <div className="resume-footer">
+                <div className="rf top">
+                    resume
+                </div>
+                <div className="rf bottom">
+                    projects
+                </div>
             </div>
+
+            <div className="follow-footer">
+                <div className="ff top">
+                    Follow
+                </div>
+                <div className="ff bottom">
+                    <div className="ff-link f">Follow my Workouts: fitnessubstack</div>
+                    <div className="ff-link m">Follow my Music: tuneinwithmike@substack</div>
+                </div>
+            </div>
+
             <div className="link-footer">
-                <span className="lf">Links</span>
-                <span className="lf">Github @ Github</span>
-                <span className="lf">LinkedIn@LinkedIn</span>
+                <div className="lf top">
+                    Links
+                </div>
+                <div className="lf bottom">
+                    <div className="lf-link g">Github @ Github</div>
+                    <div className="lf-link l">LinkedIn@LinkedIn</div>
+                </div>
             </div>
+
             <div className="self-footer">
                 <span className="sf">Michael Kim</span>
                 <span className="sf">Los Angeles</span>
