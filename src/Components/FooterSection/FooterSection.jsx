@@ -35,10 +35,15 @@ export default function FooterSection(){
             </div>
 
             <div className="self-footer">
-                <span className="sf">Michael Kim</span>
-                <span className="sf">Los Angeles</span>
-                <span className="sf">email</span>
-                <span className="sf">phonenumber</span>
+                <div className="sf top">
+                    Michael Kim
+                </div>
+                <div className="sf bottom">
+                    <div className="sf-link c">Los Angeles</div>
+                    <div className="sf-link e">michaelstatus200@gmail.com</div>
+                    {/* <div className="sf-link n">(213) 477-4574</div> */}
+                    <div className="sf-link n"> phonenumber?</div>
+                </div>
             </div>
 
         </section>
