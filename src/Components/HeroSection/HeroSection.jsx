@@ -1,7 +1,7 @@
 import "./HeroSection.css";
+import HEROIMAGES from "../../Assets/Images/index";
 import BaublesSection from "../BaublesSection/BaublesSection";
 
-// import HEROIMAGES from "../../Assets/Images/index";
 
 export default function HeroSection(){
 
@@ -11,8 +11,8 @@ export default function HeroSection(){
 
             <div className="hero-container">  
                 <div className="hero-image">
-                    {/* <img src={HEROIMAGES[0].img} className="hero-image"/> */}
-                    <BaublesSection />
+                    <img src={HEROIMAGES[11].img}/>
+                    {/* <BaublesSection /> */}
                 </div>
                 <div className="hero-title">
                     <span className="ht">Full-Stack Developer</span>

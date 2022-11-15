@@ -2,80 +2,82 @@
     height: 100vh;
     width: 100%;
 }
-
 .hero-container{
-    /* border: 2px solid #d42727; */
-    margin-top: 0vh;
     height: 70vh;
+    margin-top: 0vh;
     width: 100%;  
     display: flex;
     justify-content: center;
     align-items: flex-end;
     text-align: center;
+    /* border: 2px solid #d42727; */
 }
 .hero-image{    
-    /* border: 2px solid dodgerblue; */
-    background-color: rgb(30, 30, 208);
     height: inherit;
     width: 100%;
     position: absolute;
-    object-fit: none;
     z-index: 0;
-    /* object-position: 55% 40%; */
     overflow: hidden;
+    /* border: 20px solid dodgerblue; */
 }
+.hero-image img{
+    width: 100%;
+    position: relative;
+    bottom: 300px;
+
+}
+
 .hero-title{
-    /* border: 2px solid #16c024; */
     height: 160px;
     width: 400px;    
     display: flex;
     flex-direction: column;
     color: rgb(239, 239, 239);
     z-index: 1;
+    /* border: 10px solid #16c024; */
 }
 .ht{
-    /* border: 2px solid #5d1c6e; */
     font-size: 1em;
     padding-bottom: 10px;
+    /* border: 10px solid #5d1c6e; */
 }
 .hn{
-    /* border: 2px solid #000000; */
     font-size: 3em;
     font-weight: 500;
+    /* border: 2px solid #000000; */
 }
 
 
 .title-container{
-    /* border: 3px solid rgba(104, 41, 221); */
     height: 30vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /* border: 3px solid rgba(104, 41, 221); */
 }
 .pb-title{
-    /* border: 2px solid rgb(255, 62, 239); */
     height: 50%;
-    /* width: 50%; */
     width: 650px;
-    
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 5px;
+    /* width: 50%; */
+    /* border: 2px solid rgb(255, 62, 239); */
 }
 .pb-h{
     font-size: 2em;
     font-weight: 400;
 }
 .pb-text{
-    /* border: 2px solid cyan; */
     height: 50%;
     width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 2px solid cyan; */
 }
 .pb-t{
     font-size: 1em;
