@@ -1,6 +1,9 @@
 
 ### Trello Board:
-##### [https://trello.com/b/JCTYkyVs/portfolio](https://trello.com/b/JCTYkyVs/portfolio)
+Project Management with Trello.
+to view my workflow:
+##### [Trello Board](https://trello.com/invite/b/JCTYkyVs/ATTIc56c95d786ca5be1863ffb8c94daf06c92FAAEE8/portfolio)
+##### [Trello Link v2](https://trello.com/b/JCTYkyVs/portfolio)
 
 ### Portfolio:
 ##### [radiant-m.netlify.app/](https://radiant-m.netlify.app/)
