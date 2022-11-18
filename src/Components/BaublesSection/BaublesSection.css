@@ -1,98 +1,130 @@
-.spotlight1{
-    /* z-index: 3; */
+.spotlight{
+    z-index: 2;
+    display: show;
     position: absolute;
+    border: none;
+    border-radius: 50% 50% 50% 50%;
+}
+
+
+.spotlight.l{
     left: -150px;
-    top: 100px;
+    top: 5%;
     height: 150px;
     width: 150px;
-
-    border: none;
-    border-radius: 50% 50% 50% 50%;
-    background-color: rgba(255, 154, 223, .8);
-    box-shadow: 
-    2px 0px 30px #ffffff,
-    -2px 0px 30px #fdfdfd,
-    0px 2px 30px #f5c3f7,
-    0px -2px 0px #fed3ff;
     animation: bubble 30s linear infinite;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 10px 30px 5px rgb(255, 255, 255);
+    -webkit-box-shadow:     
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 10px 30px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 10px 30px 5px rgb(255, 255, 255);
 }
-.spotlight1:hover{
-    background-color: rgba(255, 154, 223, 0.6);
-    outline: 2px dotted white;
+.spotlight.l:hover{
     animation-play-state: paused;
+
+    background-color: rgba(255, 160, 225, 0.6);
+    box-shadow:
+        0px 0px 30px #efd4e6,
+        inset 0px 10px 30px 5px rgb(249, 237, 244);
+    -webkit-box-shadow: 
+        0px 0px 30px #efd4e6,
+        inset 0px 10px 30px 5px rgb(249, 237, 244);
+    -moz-box-shadow: 
+        0px 0px 30px #efd4e6,
+        inset 0px 10px 30px 5px rgb(249, 237, 244);
+    outline: 1px dotted white;
 }
 
-.spotlight2{
-    position: absolute;
+
+.spotlight.m{
     left: -150px;
-    top: 180px;
-    height: 100px;
-    width: 100px;
-    
-    border: none;
-    border-radius: 50% 50% 50% 50%;
-    background-color: rgba(91, 196, 203, 0.8);
-    box-shadow: 
-        2px 0px 30px #affee4,
-        -2px 0px 30px #dafdff,
-        0px 2px 30px #f9ffc3,
-        0px -2px 0px #ffffff;
+    top: 16%;
+    height: 110px;
+    width: 110px;
     animation: bubble 40s linear infinite;
     animation-delay: 1.33s;
-}
-.spotlight2:hover{
-    background-color: rgba(91, 196, 203, .3);
-    outline: 2px dotted white;
-    animation-play-state: paused;
-}
-
-.spotlight3{
-    position: absolute;
-    left: -150px;
-    top: 160px;
-    height: 60px;
-    width: 60px;
-
-    border: none;
-    border-radius: 50% 50% 50% 50%;
-    background-color: rgba(255, 255, 47, 0.8);
+    
+    background-color: rgba(255, 255, 255, 0);
     box-shadow: 
-    2px 0px 30px #f1feaf,
-    2px 0px 30px #f4f4c0,
-    0px 2px 30px #fdffcb,
-    0px -2px 0px #ffffff;
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 10px 25px 5px rgb(255, 255, 255);
+    -webkit-box-shadow:     
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 10px 25px 5px rgb(255, 255, 255);
+    -moz-box-shadow: 
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 10px 25px 5px rgb(255, 255, 255);
+}
+.spotlight.m:hover{
+    animation-play-state: paused;
+
+    background-color: rgba(91, 196, 203, .5);
+    box-shadow: 
+        0px 0px 30px #affee4,
+        inset 0px 10px 25px 5px rgb(192, 248, 251);
+    -webkit-box-shadow:
+        0px 0px 25px #affee4,
+        inset 0px 10px 25px 5px rgb(192, 248, 251);
+    -moz-box-shadow:
+        0px 0px 25px #affee4,
+        inset 0px 10px 25px 5px rgb(192, 248, 251);
+    outline: 1px dotted white;
+} 
+
+.spotlight.s{
+    left: -150px;
+    height: 80px;
+    width: 80px;
+    top: 12%;
     animation: bubble 30s linear infinite;
     animation-delay: 4.29s;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 5px 12px 0px rgb(255, 255, 255);
+    -webkit-box-shadow:     
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 5px 12px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 
+        0px 0px 10px rgb(219, 218, 218),
+        inset 0px 5px 12px 0px rgb(255, 255, 255);
 }
-.spotlight3:hover{
-    background-color: rgba(255, 255, 47, 0.7);
-    outline: 2px dotted white;
+.spotlight.s:hover{
     animation-play-state: paused;
+
+    background-color: rgba(255, 255, 47, 0.3);
+    box-shadow: 
+        0px 0px 30px #f1feaf,
+        inset 0px 5px 12px 0px rgb(251, 251, 211);
+    -webkit-box-shadow:
+        0px 0px 30px #f1feaf,
+        inset 0px 5px 12px 0px rgb(251, 251, 211);
+    -moz-box-shadow:
+        0px 0px 30px #f1feaf,
+        inset 0px 5px 12px 0px rgb(251, 251, 211);
+    outline: 1px dotted white;
 }
 
 @keyframes bubble{
     0% {transform: translate(0vw, 0%);}
-    5% {transform: translate(5vw, 0%);}
-    10% {transform: translate(10vw, -20%);}
-    20% {transform: translate(20vw, 10%);}
-    25% {transform: translate(25vw, -10%);}
-
-    38% {transform: translate(38vw, 35%);}
-    40% {transform: translate(40vw, 29%);}
-
-    46% {transform: translate(46vw, 42%);}
-    50% {transform: translate(50vw, 42%);}
-    59% {transform: translate(59vw, 42%);}
-
-    66% {transform: translate(66vw, 30%);}
-    77% {transform: translate(77vw, 35%);}
-    87% {transform: translate(87vw, 15%);}
-
-    95% {transform: translate(95vw, 10%);}
-    100% {transform: translate(100vw, 15%); margin-left: 150px;}
+    5% {transform: translate(5vw, -1%);}
+    20% {transform: translate(20vw, 7%);}
+    40% {transform: translate(40vw, 0%);} 
+    60% {transform: translate(60vw, 8%);} 
+    80% {transform: translate(80vw, 0%);}
+    90% {transform: translate(90vw, 2%);}
+    95% {transform: translate(95vw, 4%);}
+    100% {transform: translate(100vw, -5%); margin-left: 150px;}
 }
 
-.pop{
+.pop {
     display: none;
 }
 

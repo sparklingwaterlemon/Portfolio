@@ -1,20 +1,16 @@
 import "./HeroSection.css";
-import HEROIMAGES from "../../Assets/Images";
 import BaublesSection from "../BaublesSection/BaublesSection";
 
+
 export default function HeroSection(){
-
-    // 3, 4, 6, 7
-
-
     return (
         <>
         <section id="hero">
-
-            <div className="hero-container">  
+            <div className="hero-container">
+                    <BaublesSection />  
                 <div className="hero-image">
-                    <img src={HEROIMAGES[28].img}/>
-                    {/* <BaublesSection /> */}
+                    <img src={require("../../Assets/Images/ocean.jpeg")}/>
+                    
                 </div>
                 <div className="hero-title">
                     <span className="ht">Full-Stack Developer</span>
