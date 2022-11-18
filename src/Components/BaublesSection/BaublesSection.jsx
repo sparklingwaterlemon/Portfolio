@@ -11,17 +11,16 @@ export default function BaublesSection(){
             setSpotLight1(true)
         }, 10000);
     },[spotLight1]);
-
     useEffect(()=>{
         setTimeout(()=>{
-            setSpotLight1(true)
-        }, 10000);
+            setSpotLight2(true)
+        }, 5000);
     },[spotLight2]);
 
     useEffect(()=>{       
         setTimeout(()=>{
-            setSpotLight1(true)
-        }, 10000);
+            setSpotLight3(true)
+        }, 3000);
     },[spotLight3])
 
 
