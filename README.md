@@ -11,11 +11,14 @@ Project Management with Trello.
 
 
 ### Work Log:
-
-##### 11/16
+##### 11/17
 To-Do's
 - Update README
-- Refresh Trello
+
+
+##### 11/16
+- Refreshed Trello
+- Refreshed ReadMe
 - Continuing Hero Image
 
 ##### 11/14
