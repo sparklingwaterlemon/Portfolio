@@ -28,16 +28,16 @@
 .spotlight.l:hover{
     animation-play-state: paused;
 
-    background-color: rgba(255, 160, 225, 0.6);
+    background-color: rgba(255, 160, 225, 0.3);
     box-shadow:
         0px 0px 30px #efd4e6,
-        inset 0px 10px 30px 5px rgb(249, 237, 244);
+        inset 0px 10px 30px 5px rgb(249, 216, 236);
     -webkit-box-shadow: 
         0px 0px 30px #efd4e6,
-        inset 0px 10px 30px 5px rgb(249, 237, 244);
+        inset 0px 10px 30px 5px rgb(249, 216, 236);
     -moz-box-shadow: 
         0px 0px 30px #efd4e6,
-        inset 0px 10px 30px 5px rgb(249, 237, 244);
+        inset 0px 10px 30px 5px rgb(249, 216, 236);
     outline: 1px dotted white;
 }
 
