@@ -12,8 +12,9 @@ Project Management with Trello.
 
 ### Work Log:
 ##### 11/17
-To-Do's
-- Update README
+- Hero Image Complete
+- Baubles now Complete. Re-organized code to make it easier to update and scale for future. Neater overall.
+- Fixed Bauble SetTimeOut Error.
 
 
 ##### 11/16
