@@ -15,13 +15,13 @@ export default function BaublesSection(){
     useEffect(()=>{
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 5000);
+        }, 10000);
     },[spotLight2]);
 
     useEffect(()=>{       
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 2000);
+        }, 10000);
     },[spotLight3])
 
 
