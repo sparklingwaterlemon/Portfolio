@@ -12,7 +12,8 @@ Project Management with Trello.
 
 ### Work Log:
 ##### 11/18
-- Working on Nav Bar
+- NavBar Complete
+- GitHub/ LinkedIn SVG to do
 
 
 ##### 11/17

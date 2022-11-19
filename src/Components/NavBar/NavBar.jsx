@@ -42,8 +42,18 @@ export default function NavBar() {
             </Link>
           </li>
 
-          <li><a href="https://www.youtube.com" target="_blank">a</a></li>
-          <li><a href="https://www.weather.yahoo.com" target="_blank">a</a></li>
+          <li id="nav-link-gh">
+            <a href="https://www.youtube.com" target="_blank">
+              <img src={require("../../Assets/NavBarImages/github.png")}/>
+            </a>
+          </li>
+          
+          <li id="nav-link-li">
+            <a href="https://www.youtube.com" target="_blank">
+            <img src={require("../../Assets/NavBarImages/linkedin.png")}/>
+            </a>
+          </li>
+
         </ul>
       </div>
 
