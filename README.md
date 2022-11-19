@@ -11,9 +11,14 @@ Project Management with Trello.
 
 
 ### Work Log:
+##### 11/18
+- Working on Nav Bar
+
+
 ##### 11/17
 - Hero Image Complete
 - Baubles now Complete. Re-organized code to make it easier to update and scale for future. Neater overall.
+- Fixed Z-Index.
 - Fixed Bauble SetTimeOut Error.
 
 

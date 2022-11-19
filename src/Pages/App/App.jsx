@@ -1,9 +1,9 @@
 import './App.css';
 
-// import NavBar from '../../Components/NavBar/NavBar';
+import NavBar from '../../Components/NavBar/NavBar';
 import HeroSection from '../../Components/HeroSection/HeroSection';
 // import AboutSection from '../../Components/AboutSection/AboutSection';
-// import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
+import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
 // import ContactSection from '../../Components/ContactSection/ContactSection';
 // import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
 // import FooterSection from '../../Components/FooterSection/FooterSection';
@@ -17,10 +17,10 @@ export default function App() {
 
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <HeroSection />
       {/* <AboutSection /> */}
-      {/* <ProjectSectionD /> */}
+      <ProjectSectionD />
       {/* <ContactSection /> */}
       {/* <ScrollToTop /> */}
       {/* <FooterSection /> */}

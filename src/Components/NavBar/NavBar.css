@@ -1,30 +1,49 @@
-/* .nav-bar.change{
-  background-color: pink;
-} */
-
 .nav-bar {
+  z-index: 5;
   position: fixed;
   top: 0;
-  height: 10vh;
+
+  height: 15vh;
   width: 100%;
   padding: 0.5rem 0rem;
-  background-color: rgba(0, 0, 0, .5);
-  color: rgb(251, 207, 224);
-  box-shadow: 0px 0px 10px 2px rgba(9, 9, 9, 0.23);
+
+  background-color: black;
+  --nav-font-color: #fbcfe0;
+  color: var(--nav-font-color);
+  
   user-select: none;
   display: flex;
   align-items: center;
-  z-index: 10;
+    
+  background: linear-gradient(to right, black 56%, transparent 57%);
+  background-position: right;
+  background-size: 200% 100%;
+  transition: background 2s ease-in-out;
 }
+.nav-bar:hover {
+  background-position: left;
+}
+.nav-bar:hover .nav-ul li{
+  opacity: 1;
+}
+
 .active {
   text-decoration: underline;
 }
-.nav-home {
-  font-size: 1.5em;
-  margin-left: 2rem;
+.navlink {
   cursor: pointer;
 }
-.nav-home:hover{
+
+.navlink.m {
+  font-size: 1.5em;
+  margin-left: 2rem;
+}
+.nav-menu-container {
+  margin-left: auto;
+}
+
+
+.navlink:hover{
   text-decoration: underline;
 }
 .nav-ul {
@@ -35,20 +54,33 @@
 .nav-ul li {
   list-style-type: none;
   margin: 0 1rem;
-  cursor: pointer;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
 }
-.nav-ul li:hover{
+
+.nav-ul a:hover{
   text-decoration: underline;
 }
 
 
-.nav-menu {
-  margin-left: auto;
-}
-.nav-ul li a {
-  display: block;
-  width: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
