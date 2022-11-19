@@ -43,13 +43,13 @@ export default function NavBar() {
           </li>
 
           <li id="nav-link-gh">
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://github.com/sparklingwaterlemon" target="_blank">
               <img src={require("../../Assets/NavBarImages/github.png")}/>
             </a>
           </li>
           
           <li id="nav-link-li">
-            <a href="https://www.youtube.com" target="_blank">
+            <a href="https://www.linkedin.com/in/michael-kim-152226243" target="_blank">
             <img src={require("../../Assets/NavBarImages/linkedin.png")}/>
             </a>
           </li>
