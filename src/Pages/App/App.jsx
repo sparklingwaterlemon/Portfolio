@@ -4,7 +4,7 @@ import NavBar from '../../Components/NavBar/NavBar';
 import HeroSection from '../../Components/HeroSection/HeroSection';
 // import AboutSection from '../../Components/AboutSection/AboutSection';
 import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
-// import ContactSection from '../../Components/ContactSection/ContactSection';
+import ContactSection from '../../Components/ContactSection/ContactSection';
 // import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
 // import FooterSection from '../../Components/FooterSection/FooterSection';
 
@@ -21,7 +21,7 @@ export default function App() {
       <HeroSection />
       {/* <AboutSection /> */}
       <ProjectSectionD />
-      {/* <ContactSection /> */}
+      <ContactSection />
       {/* <ScrollToTop /> */}
       {/* <FooterSection /> */}
 

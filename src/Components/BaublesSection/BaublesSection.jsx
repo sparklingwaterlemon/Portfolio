@@ -9,18 +9,18 @@ export default function BaublesSection(){
     useEffect(()=>{
         setTimeout(()=>{
             setSpotLight1(true)
-        }, 10000);
+        }, 60000);
     },[spotLight1]);
     useEffect(()=>{
         setTimeout(()=>{
             setSpotLight2(true)
-        }, 5000);
+        }, 55000);
     },[spotLight2]);
 
     useEffect(()=>{       
         setTimeout(()=>{
             setSpotLight3(true)
-        }, 3000);
+        }, 20000);
     },[spotLight3])
 
 
