@@ -123,6 +123,7 @@
     }
     .hero-title {
         height: 420px;
+        width: 330px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -132,10 +133,11 @@
     .ht {
         font-size: 1.8em;
         width: 100%;
-        padding: 0px 20px;
+        padding: 15px 20px;
         line-height: 60px;
         background-color: rgba(10,10,10,.4);
         border-radius: 20px 20px 0px 0px;
+        line-height: 30px;
     }
     .hn {
         line-height: 80px;
