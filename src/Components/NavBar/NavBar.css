@@ -22,15 +22,15 @@
   background: linear-gradient(to right, black 51%, transparent 58%);
   background-position: right;
   background-size: 200% 100%;
-  transition: background 7s linear;
+  transition: background 9s linear;
 }
 .nav-bar:hover {
   background-position: left;
-  transition: background 3s linear;
+  transition: background 1s linear;
 }
 .nav-bar:hover .nav-ul li{
   opacity: 1;
-  transition: opacity .6s ease-in;
+  transition: opacity .6s linear;
 }
 
 #nav-link-michael {
@@ -58,7 +58,7 @@
   padding: 20px;
   margin: 0 1rem;
   opacity: 0;
-  transition: opacity 3s linear;
+  transition: opacity 2s linear;
   /* outline: 1px solid orange; */
   /* opacity: 1; */
 }

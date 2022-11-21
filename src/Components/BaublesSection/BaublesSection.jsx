@@ -20,7 +20,7 @@ export default function BaublesSection(){
     useEffect(()=>{       
         setTimeout(()=>{
             setSpotLight3(true)
-        }, 20000);
+        }, 55000);
     },[spotLight3])
 
 
