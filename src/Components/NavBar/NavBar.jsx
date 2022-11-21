@@ -13,7 +13,7 @@ export default function NavBar() {
 
   return (
     <>
-    <nav className="nav-bar">      
+    <nav className="nav-bar">
       <Link 
         id="nav-link-michael" 
         activeClass="active" 

@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: flex-end;
     text-align: center;
-    --hero-container-color: rgb(39, 39, 43);
+    --hero-container-color: #27272b;
     background-color: var(--hero-container-color);;
 }
 .hero-image{    
