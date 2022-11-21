@@ -41,14 +41,17 @@
     font-size: 1.6em;
     font-weight: 400;
     padding-bottom: 0px;
-    color: rgb(136, 73, 41);
+    color: #f7f3d9;
     /* background-color: rgba(0,0,0,.4); */
     /* outline: 2px solid #5d1c6e; */
 }
 .hn{
     font-size: 4em;
     font-weight: 500;
-    color: wheat;
+    color: rgb(255, 201, 84);
+    color: #fbcfe0;
+    color: #f7f3d9;
+    /* background-color: rgba(0,0,0,.4); */
     /* background-color: rgba(0,0,0,.4); */
     /* outline: 2px solid #000000; */
 }
@@ -68,12 +71,13 @@
 }
 .pb-title{
     height: 50%;
-    width: 650px;
+    
+    width: 640px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 5px;
-    /* width: 50%; */
+    overflow: auto;
     /* border: 2px solid rgb(255, 62, 239); */
 }
 .pb-h{
@@ -82,7 +86,7 @@
 }
 .pb-text{
     height: 50%;
-    width: 1000px;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,8 +104,8 @@
 
 @media only screen and (max-width: 640px){
     #hero {
-        height: 600px;
-        --hero-mobile-height: 400px;
+        height: 800px;
+        --hero-mobile-height: 500px;
         --title-mobile-height: 300px;
     }
     .hero-container {
@@ -118,27 +122,43 @@
         right: 470px;
     }
     .hero-title {
-        height: 115px;
-        /* border: 2px solid orange; */
+        height: 420px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border: 2px solid orange;
+        
     }
     .ht {
-        font-size: 1.3em;
-        color: rgb(243, 243, 208);
+        font-size: 2em;
+        width: 100%;
+        padding: 0px 20px;
+        line-height: 60px;
+        background-color: rgba(10,10,10,.4);
+        border-radius: 20px 20px 0px 0px;
     }
     .hn {
-        font-size: 2.5em;
-        color: rgb(248, 248, 212);
+        line-height: 80px;
+        width: 100%;
+        padding: 0px 20px 10px 20px;
+        font-size: 5em;
+        background-color: rgba(10,10,10,.4);
+        border-radius: 0px 0px 20px 20px;
+        
     }
 
     .title-container {
         height: var(--title-mobile-height);
+        border: 2px solid blue;
+        background: rgba(0,0,0,.4)
     }
     .pb-title {
         height: 100px;
         width: 100%;
         align-items: center;
         padding: 0px 15px;
-        /* outline: 2px solid red; */
+        outline: 2px solid red;
     }
     .pb-h{
         font-size: 1.2em;
@@ -149,8 +169,9 @@
         padding: 0px 15px;
         width: 100%;
         color: pink;
-        align-items: flex-start;
-        /* outline: 2px solid blue; */
+        align-items: center;
+        outline: 2px solid blue;
+        
     }
     .pb-t{
         font-size: 1em;

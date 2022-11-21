@@ -17,11 +17,11 @@ export default function App() {
 
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <HeroSection />
       {/* <AboutSection /> */}
-      <ProjectSectionD />
-      <ContactSection />
+      {/* <ProjectSectionD /> */}
+      {/* <ContactSection /> */}
       {/* <ScrollToTop /> */}
       {/* <FooterSection /> */}
 

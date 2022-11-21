@@ -26,6 +26,7 @@ export default function NavBar() {
         <ul className="nav-ul">
           <li id="nav-link-p">
             <Link 
+              id="nav-link-p-mobile" 
               activeClass="active" 
               smooth spy to="projects" 
               onClick={toggle}>
@@ -35,23 +36,26 @@ export default function NavBar() {
 
           <li id="nav-link-c">
             <Link 
+              id="nav-link-c-mobile" 
               activeClass="active" 
               smooth spy to="contact" 
               onClick={toggle}>
-              CONTACT ME
+              CONTACT
             </Link>
           </li>
 
           <li id="nav-link-gh">
-            <a href="https://github.com/sparklingwaterlemon" target="_blank">
+            <a href="https://github.com/sparklingwaterlemon" target="_blank" id="nav-link-gh-mobile" >
               <img src={require("../../Assets/NavBarImages/github.png")}/>
             </a>
           </li>
           
           <li id="nav-link-li">
-            <a href="https://www.linkedin.com/in/michael-kim-152226243" target="_blank">
-            <img src={require("../../Assets/NavBarImages/linkedin.png")}/>
-            </a>
+            <div className="mobile-link-li">
+              <a href="https://www.linkedin.com/in/michael-kim-152226243" target="_blank" id="nav-link-li-mobile">
+                <img src={require("../../Assets/NavBarImages/linkedin.png")}/>
+              </a>
+            </div>
           </li>
 
         </ul>
