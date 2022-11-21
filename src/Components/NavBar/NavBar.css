@@ -110,7 +110,7 @@
   background-color: rgb(229, 254, 254);
   cursor: pointer;
 
-  transition: background-color .5s ease-in-out;
+  transition: background-color 1s ease-in-out;
 
   position: absolute;
   top: 50%;
@@ -119,6 +119,9 @@
   display: none;
 }
 .hamburger:hover {
+  background-color: #fff7ba;
+}
+.hamburger.expanded{
   background-color: #fff7ba;
 }
 
@@ -215,41 +218,42 @@
   #nav-link-gh{
     margin: 0px;
     /* border: 1px dotted orange; */
-    padding: 20px 0px;
+    padding: 10px 0px -10px 0px;
   }
   #nav-link-gh-mobile{
     /* border: 1px solid blue; */
     position: relative;
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 140px;
     padding-right: 140px;
-    padding-bottom: 18px;
+    padding-bottom: 0px;
   }
   #nav-link-gh:hover{
     background-color: #27272b;
   }
   #nav-link-gh-mobile:hover img{
-    transform: scale(1.5)
+    transform: scale(1.3)
   }
    
   #nav-link-li{
     margin: 0px;
     /* border: 1px dotted orange; */
-    padding: 20px 0px;
+    padding: 10px 0px -10px 0px;
   }
   #nav-link-li-mobile{
     /* border: 1px solid blue; */
     position: relative;
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 140px;
     padding-right: 140px;
-    padding-bottom: 18px;
+    padding-bottom: 0px;
   }
   #nav-link-li:hover{
     background-color: #27272b;
+    
   }
   #nav-link-li-mobile:hover img{
-    transform: scale(1.4)
+    transform: scale(1.3);
   }
 
 }

@@ -62,7 +62,7 @@ export default function NavBar() {
       </div>
 
       <button
-        className="hamburger"
+        className={isNavExpanded ? "hamburger expanded" : "hamburger"}
         onClick={toggle}>
       </button>
     </nav>
