@@ -160,13 +160,24 @@
         animation: none;
     } */
     .contact-form-container{
+        height: auto;
         width: 100%;
         justify-content: center;
         align-items: center;
-        height: auto;
-        width: auto;
-        margin: 20px;
+        /* margin: 20px; */
         /* border: 1px solid orange; */
+    }
+    .contact-text{
+
+        height: auto;
+        width:100%;
+        padding: 20px;
+    }
+    .contact-email{
+
+        height: auto;
+        padding: 20px;
+        width:100%;
     }
     .contact-image-container{
         /* outline: 2px solid orange; */
