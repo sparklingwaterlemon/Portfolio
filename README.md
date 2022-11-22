@@ -11,6 +11,10 @@ Project Management with Trello.
 
 
 ### Work Log:
+##### 11/21
+- Media CSS
+- IceBox Colors
+
 ##### 11/18
 - NavBar Complete
 - GitHub/ LinkedIn Icons and Linked
