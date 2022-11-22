@@ -20,8 +20,8 @@ export default function App() {
       <NavBar />
       <HeroSection />
       <AboutSection />
-      {/* <ProjectSectionD /> */}
-      {/* <ContactSection /> */}
+      <ProjectSectionD />
+      <ContactSection />
       {/* <ScrollToTop /> */}
       {/* <FooterSection /> */}
 

@@ -12,9 +12,8 @@
   padding: 0.5rem 0rem;
 
   background-color: #27272b;
-  --nav-font-color: #f7f3d9;;
   --nav-font-color: #fbcfe0;
-  --nav-font-color: rgb(253, 248, 238);;
+  --nav-font-color: white;
   color: var(--nav-font-color);
   
   user-select: none;
@@ -22,9 +21,10 @@
   align-items: center;
     
   background: linear-gradient(to right, black 51%, transparent 58%);
+  background: linear-gradient(to right, black 52%, transparent 54%);
   background-position: right;
   background-size: 200% 100%;
-  transition: background 9s linear;
+  transition: background 4s linear;
 }
 .nav-bar:hover {
   background-position: left;
@@ -36,12 +36,15 @@
 }
 
 #nav-link-michael {
-  font-size: 2em;
-  padding: 30px;
+  /* border: 1px solid orange; */
+  transform: rotate(-90deg);
+  font-size: 1em;
+  padding: 25px;
+  margin-left: -20px;
   white-space: nowrap;
   cursor: pointer;
-  /* border: 1px solid orange; */
-  color:  rgb(253, 248, 238);
+  color:  #fbcfe0;
+  color:  white;
 }
 #nav-link-michael:hover {
   text-decoration: underline;

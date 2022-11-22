@@ -5,8 +5,8 @@
     height: 40vh;
     width: 100%;
     background: linear-gradient( 
-        rgb(246, 252, 255),
-        rgb(158, 220, 244)
+        rgb(246, 244, 244),
+        rgb(235, 242, 245)
     ); 
     display: flex;
     justify-content: center;

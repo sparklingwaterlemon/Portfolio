@@ -1,13 +1,15 @@
 #projects{
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
+
 .pd-left-container{
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(126, 28, 28);
     /* border: 4px dotted orange; */
-    margin-top: 10vh;
+
     height: 75vh;
     width: 50%;
     
@@ -45,12 +47,12 @@
 .pd-button{
     width: 125px;
     height: 55px; 
-    background-color: #c1fbb0;
-    color: #54c531;
+    background-color: slategray;
+    color: white;
 
-    border: 2.5px solid  #2f7819;
+    border: 2.5px solid  white;
     font-size: 1.3em;
-    transition: background-color .6s, color .5s, border .8s ease-in;
+    transition: background-color .5s, color .5s ease-in;
     cursor: pointer;
 }
 .pd-button.yt{
@@ -65,24 +67,22 @@
 }
 .pd-button:hover{
     background-color: black;
-    color: white;
+    color: #fbcfe0;
 }
 .pd-button.yt:hover{
-    border: 2.5px solid white;
+    border: 2.5px solid #f8b1cc;
     border-style: solid none solid solid;
 }
 .pd-button.gg:hover{
-    border: 2.5px solid white;
+    border: 2.5px solid #fbcfe0;
     border-style: solid solid solid none;
 }
 
 
 .pd-right-container{
-    background-color: lightgoldenrodyellow;
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(126, 28, 28);
 
-    /* border: 3px dotted black; */
-    margin-top: 10vh;
+    /* border: 3px dotted orange; */
     width: 50%;
     height: 75vh;
 
@@ -98,4 +98,34 @@
     
     /* position: relative;
     left: -10px */
+}
+
+@media screen and (max-width: 865px){
+    #projects{
+        height: auto;
+    }
+    .pd-right-container{
+        height: auto;
+        width: 100%;
+    }
+    .pd-left-container{
+        width: 100%;
+        height: auto;
+        /* border: 2px solid orange; */
+        justify-content: center;
+    }
+    .pd-info-container{
+        right:0;
+    }
+
+    .pd-right-container{
+        width:100%;
+        height: auto;
+        justify-content: center;
+    }
+    .pd-right-image-container{
+        margin: 20px;
+        height: 350px;
+    }
+
 }

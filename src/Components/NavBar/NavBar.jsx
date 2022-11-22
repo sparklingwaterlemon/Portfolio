@@ -19,7 +19,7 @@ export default function NavBar() {
         activeClass="active" 
         smooth spy to="hero" 
         onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}>
-        Michael Kim
+        michael
       </Link>
 
       <div className={isNavExpanded ? "nav-menu-container expanded" : "nav-menu-container"}>
