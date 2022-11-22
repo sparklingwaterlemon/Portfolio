@@ -7,14 +7,13 @@ export default function HeroSection(){
         <>
         <section id="hero">
             <div className="hero-container">
-                    {/* <BaublesSection />   */}
                 <div className="hero-image">
-                    <img src={require("../../Assets/HeroPageImages/ocean.jpeg")}/>
-                    
+                    {/* <BaublesSection />   */}
+                    <img src={require("../../Assets/HeroPageImages/ho6.jpg")}/>
                 </div>
                 <div className="hero-title">
-                    <span className="ht">Full-Stack Developer</span>
-                    <span className="hn">Michael Kim</span>
+                    <span className="ht t">Full-Stack Developer</span>
+                    <span className="ht n">Michael Kim</span>
                 </div>
             </div>
 
