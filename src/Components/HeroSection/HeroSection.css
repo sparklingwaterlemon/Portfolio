@@ -41,16 +41,17 @@
     font-size: 1.6em;
     font-weight: 400;
     padding-bottom: 0px;
-    color: #f7f3d9;
+    color: #fdfbef;
+    color: #e9ffff;
     /* background-color: rgba(0,0,0,.4); */
     /* outline: 2px solid #5d1c6e; */
 }
 .hn{
     font-size: 4em;
     font-weight: 500;
-    color: rgb(255, 201, 84);
-    color: #fbcfe0;
-    color: #f7f3d9;
+
+    color: #fdfbef;
+    color: #e9ffff;
     /* background-color: rgba(0,0,0,.4); */
     /* background-color: rgba(0,0,0,.4); */
     /* outline: 2px solid #000000; */
@@ -151,27 +152,29 @@
 
     .title-container {
         height: var(--title-mobile-height);
-        border: 2px solid blue;
-        background: rgba(0,0,0,.4)
+        /* border: 2px solid blue; */
+        /* background: rgba(0,0,0,.4) */
     }
     .pb-title {
         height: 100px;
         width: 100%;
         align-items: center;
         padding: 0px 15px;
-        outline: 2px solid red;
+        /* outline: 2px solid red; */
     }
     .pb-h{
         font-size: 1.2em;
         color: pink;
+        color: #191711;
     }
     .pb-text{
         height: 200px;
         padding: 0px 15px;
         width: 100%;
         color: pink;
+        color: #191711;
         align-items: center;
-        outline: 2px solid blue;
+        /* outline: 2px solid blue; */
         
     }
     .pb-t{
