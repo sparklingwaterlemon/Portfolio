@@ -25,7 +25,8 @@
     width: 100%;
     font-size: 2em;
     text-decoration: papayawhip wavy underline;
-    color: whitesmoke;
+    text-decoration: #1DA1F2 wavy underline;
+    color: #F5F8FA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +140,7 @@
     }
     .resume-footer{
         width: 100%;
-        /* height: auto; */
+        margin-bottom: 40px;
     }
     .follow-footer{
         width: 100%;
