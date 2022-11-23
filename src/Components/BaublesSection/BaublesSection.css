@@ -1,9 +1,10 @@
 .spotlight{
-    z-index: 4;
+    z-index: 5;
     display: show;
     position: absolute;
     border: none;
     border-radius: 50% 50% 50% 50%;
+    cursor: pointer;
 }
 
 

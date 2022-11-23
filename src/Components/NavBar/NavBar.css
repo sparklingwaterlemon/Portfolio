@@ -28,6 +28,7 @@
   transition: background 1s linear;
 }
 .nav-bar:hover .nav-ul li{
+  z-index: 2;
   opacity: 1;
   transition: opacity .6s linear;
 }

@@ -1,6 +1,4 @@
 import "./NavBar.css";
-// import { useRef } from "react";
-import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-scroll";
 
@@ -45,15 +43,15 @@ export default function NavBar() {
           </li>
 
           <li id="nav-link-gh">
-            <a href="https://github.com/sparklingwaterlemon" target="_blank" id="nav-link-gh-mobile" >
-              <img src={require("../../Assets/NavBarImages/github.png")}/>
+            <a href="https://github.com/sparklingwaterlemon" target="_blank" rel="noreferrer" id="nav-link-gh-mobile" >
+              <img src={require("../../Assets/NavBarImages/github.png")} alt="github"/>
             </a>
           </li>
           
           <li id="nav-link-li">
             <div className="mobile-link-li">
-              <a href="https://www.linkedin.com/in/michael-kim-152226243" target="_blank" id="nav-link-li-mobile">
-                <img src={require("../../Assets/NavBarImages/linkedin.png")}/>
+              <a href="https://www.linkedin.com/in/michael-kim-152226243" target="_blank" rel="noreferrer" id="nav-link-li-mobile">
+                <img src={require("../../Assets/NavBarImages/linkedin.png")} alt="linkedin"/>
               </a>
             </div>
           </li>
