@@ -8,7 +8,7 @@ export default function HeroSection(){
         <section id="hero">
             <div className="hero-container">
                 <div className="hero-image">
-                    {/* <BaublesSection />   */}
+                    <BaublesSection />  
                     <img src={require("../../Assets/HeroPageImages/ho6.jpg")}/>
                 </div>
                 <div className="hero-title">
