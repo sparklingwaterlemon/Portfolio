@@ -21,14 +21,14 @@ export default function HeroSection(){
             <div className="title-container">
                 <div className="pb-title"> 
                     <span className="pb-h">
-                        Lorem ipsum dolor sit amet consectetur. Dele iores ut magnam.    
+                        Software Engineer with a background in Sales, Studio Art, and Chemistry
                     </span>
                 </div>
-                <div className="pb-text">
+                {/* <div className="pb-text">
                     <span className="pb-t">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut facere vel reprehenderit adipisci maiores, labore, repudiandae repellat odit at amet doloremque! Numquam, ex a tenetur corrupti quidem molestiae quaerat quo?
                     </span>
-                </div>
+                </div> */}
             </div>
 
         </section>

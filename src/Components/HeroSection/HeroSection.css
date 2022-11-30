@@ -1,5 +1,5 @@
 #hero{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
 }
@@ -72,7 +72,7 @@
 
 .title-container{
     z-index: 1;
-    height: 30vh;
+    height: 100%;
     width: 100%;
     /* background-color: rgba(0, 0, 0, 0.8); */
 
@@ -83,13 +83,13 @@
     /* border: 3px solid rgba(104, 41, 221); */
 }
 .pb-title{
-    height: 50%;
+    height: 100%;
     
     width: 640px;
+    width: 55%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 5px;
+    align-items: center;
     overflow: auto;
     /* border: 2px solid rgb(255, 62, 239); */
 }
@@ -97,7 +97,7 @@
     font-size: 2em;
     font-weight: 400;
 }
-.pb-text{
+/* .pb-text{
     height: 50%;
 
     margin-left: 40px;
@@ -106,12 +106,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid cyan; */
+    border: 2px solid cyan;
 }
 .pb-t{
     color: #657786;
     font-size: 1.4em;
-}
+} */
 
 
 
