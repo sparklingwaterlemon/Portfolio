@@ -5,15 +5,15 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './Pages/App/App';
-import Test from './Components/Test/Test';
+import ResumePage from './Pages/ResumePage/ResumePage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App/>}/>
-        <Route path="test" element={<Test />} />
+        <Route path="/" element={<App />} />
+        <Route path="resume" element={<ResumePage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

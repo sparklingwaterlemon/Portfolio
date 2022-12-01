@@ -7,7 +7,7 @@ export default function FooterSection(){
 
             <div className="resume-footer">
                 <div className="rf top">
-                    <Link to="test">resume</Link>
+                    <Link to="resume">resume</Link>
                 </div>
                 <div className="rf bottom">
                     projects
