@@ -9,6 +9,8 @@ import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
 import FooterSection from '../../Components/FooterSection/FooterSection';
 
 
+
+
 // import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
 
 
@@ -17,21 +19,18 @@ export default function App() {
 
   return (
     <>
-      <NavBar />
-      <HeroSection />
-      <AboutSection />
-      <ProjectSectionD />
-      <ContactSection />
-      <ScrollToTop />
-      <FooterSection />
-
-      {/* <ProjectSectionA /> */}
-      {/* <section id="github">GitHub</section> */}
-      {/* <section id="linkedin">LinkedIn</section> */}
-
-
+        <NavBar />
+        <HeroSection />
+        <AboutSection />
+        <ProjectSectionD />
+        <ContactSection />
+        <ScrollToTop />
+        <FooterSection />
     </>
   );
 }
 
 
+        {/* <ProjectSectionA /> */}
+        {/* <section id="github">GitHub</section> */}
+        {/* <section id="linkedin">LinkedIn</section> */}
