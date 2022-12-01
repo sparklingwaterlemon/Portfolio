@@ -1,7 +1,7 @@
 #footer{
     height: 40vh;
     width: 100%;
-    background-color: rgb(54, 54, 54);
+    background-color: #363636;
     display: flex;
     justify-content: center;
     align-items: flex;
@@ -24,13 +24,26 @@
     height: 75px;
     width: 100%;
     font-size: 2em;
-    text-decoration: papayawhip wavy underline;
-    text-decoration: #1DA1F2 wavy underline;
     color: #F5F8FA;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.rf.top a{
+    text-decoration: #1DA1F2 wavy underline;    
+}
+.rf.top a:visited{
+    color: #F5F8FA;
+}
+.rf.top a:hover{
+    text-decoration: 5px #1DA1F2 underline;
+}
+.rf.bottom{
+    color: black;
+    text-decoration: 5px #363636 line-through;  
+    user-select: none; 
+}
+
 
 .follow-footer{
     /* outline: 2px dashed coral; */
@@ -130,6 +143,8 @@
     width: 100%;
     padding: 2px;
 }
+
+
 
 @media only screen and (max-width: 640px){
     #footer{
