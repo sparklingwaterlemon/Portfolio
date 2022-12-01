@@ -1,5 +1,4 @@
 import "./FooterSection.css";
-import Test from "../Test/Test";
 import { Link } from "react-router-dom";
 
 export default function FooterSection(){

@@ -1,10 +1,9 @@
 #contact {
-    margin-top: 30px;
     height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    --contact-form-width: 400px;
+    --contact-form-width: 450px;
 }
 
 .marquee-container {
@@ -19,13 +18,10 @@
     font-weight: 400;
 }
 .marquee-text0 {
-    
-    height: 17vh;
     color: #1DA1F2;
     display: inline-block;
     z-index: 1;
     user-select: none;
-
     animation: marquee0 140s linear infinite;
     animation-direction: reverse;
 }
@@ -58,8 +54,6 @@
 .contact-form-container {
     height: auto;
     width: 50%;
-    
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -69,21 +63,17 @@
 .ct-container{
     height: auto;
     width: var(--contact-form-width);
-    margin-bottom: 50px;
 }
 .contact-text {
+    height: 120px;
     width: var(--contact-form-width);
-    height: 100px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* border: 1px solid green; */
-    padding-left: 5px;
+    
     font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-left: 5px;
 }
 .contact-email {
     height: auto;
@@ -100,13 +90,10 @@
 }
 .contact-email .fi {
     width: 100%;
-    /* height: 35px; */
-    margin-top: 5px;
-    margin-bottom: 20px;
-
+    margin-top: 2px;
+    margin-bottom: 10px;
     font-size: 1em;
     padding: 5px 5px 5px 10px;
-
     background-color: #F5F8FA;
     border: none;
 }
@@ -129,39 +116,39 @@
 
     background-color: #F5F8FA;
     font-size: 1em;
-    
+
     border-radius: 10px;
-    margin: 10px 0px 20px 3px;
+    margin: 10px 0px 20px 0px;
     padding: 10px 20px 10px 20px;
 }
 #contact-button:hover {
     background-color: #1DA1F2;
     color: #F5F8FA;
+    font-size: 1em;
     cursor: pointer;
 }
 
 
 .contact-image-container {
-    /* border: 2px solid green; */
     height: auto;
     width: 50%;
 
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 .contact-image {
     outline: 2px solid #1c3613;
     background-color: #fcd0de;
     background-color: white;
-    width: var(--contact-form-width);
-    height: 535px;
+    width: 400px;
+    height: 500px;
 
     position: relative;
-    top: 20px;
 
     margin-left: 3vw;
-    border-radius: 30px;
+    border-radius: 50%;
+    border-radius: 20px;
     z-index: 1;
 }
 
@@ -211,8 +198,7 @@
     .contact-image{
         width: 200px;
         height: 300px;
-        top: 0;
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: 30px;
     }
 }
