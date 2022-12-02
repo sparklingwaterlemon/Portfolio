@@ -97,6 +97,11 @@ Project Management with Trello.
 
 ### Resources:
 
+##### 12/01:
+```
+https://usbrandcolors.com/twitter-colors/
+```
+
 ##### 11/02:
 Infinite Marquee
 ```
