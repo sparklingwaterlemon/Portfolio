@@ -144,6 +144,7 @@
     background-position: left;
     height: 80px;
     width: 100%;
+    transition: background .7s linear;
   }
 
   .hamburger {
