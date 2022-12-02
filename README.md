@@ -11,6 +11,9 @@ Project Management with Trello.
 
 
 ### Work Log:
+##### 12/1:
+- Routing with React v6.4.4
+
 ##### 11/21
 - Media CSS
 - IceBox Colors
@@ -98,6 +101,12 @@ Project Management with Trello.
 ### Resources:
 
 ##### 12/01:
+```
+https://reactrouter.com/en/main/start/tutorial
+```
+```
+https://blog.webdevsimplified.com/2022-07/react-router/
+```
 ```
 https://usbrandcolors.com/twitter-colors/
 ```

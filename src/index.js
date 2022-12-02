@@ -3,23 +3,29 @@ import ReactDOM from 'react-dom/client';
 
 import "./index.css";
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 import App from './Pages/App/App';
 import ResumePage from './Pages/ResumePage/ResumePage';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "resume",
+    element: <ResumePage />,
+  }
+])
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="resume" element={<ResumePage />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

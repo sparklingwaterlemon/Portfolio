@@ -7,7 +7,7 @@ export default function AboutSection() {
         <section id="about">
             <div className="about-container">
                 <div className="about-text">
-                    <p className="at-p">
+                    <div className="at-p">
                         My journey from Ceramic Artist to Software Engineer
                         <br /> (Skip ahead to <Link id="skip-to-project" activeClass="active" smooth spy to="projects">Projects</Link>)
                         <br />
@@ -45,7 +45,7 @@ export default function AboutSection() {
                             <li>This is a field where I can see myself involved in for the next 30+ years.</li>
                             <li>I am thrilled to have begun my journey as a Software Engineer and am excited for the continuous learning and endless growth that is possible in this field.</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
             </div>
         </section>
