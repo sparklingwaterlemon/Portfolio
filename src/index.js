@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './Pages/App/App';
 import ResumePage from './Pages/ResumePage/ResumePage';
-import NotFound from './Pages/NotFound/NotFound';
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,7 +17,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="resume" element={<ResumePage />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
