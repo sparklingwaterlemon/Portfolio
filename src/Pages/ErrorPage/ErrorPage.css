@@ -1,0 +1,17 @@
+#error-page{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    
+    text-align: center;
+    padding: 50px;
+
+    border: 10px solid red;
+}
+#error-page a{
+    color: dodgerblue;
+}
+#error-page a:visited{
+    color: dodgerblue;
+}
