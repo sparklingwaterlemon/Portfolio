@@ -37,13 +37,13 @@ export default function AboutSection() {
                             <li>Actively exceeded sales expectations, 180+ new clients annually.</li>
                         </ul>
                         <ul> 2022 
-                            <li>Encouraged by friends and acquaintances in the tech industry, I signed up for a software engineering bootcamp.</li>
-                            <li>This decision turned out to be one of the best I have made.</li>
-                            <li>I've discovered a field that intrigues me, satisfies my creative needs, and I find the process enjoyable.</li>
+                            <li>Encouraged by friends in the tech industry, I signed up for a software engineering bootcamp.</li>
+                            <li>This decision turned out to be one of the best I have ever made.</li>
+                            <li>I've discovered a field that intrigues me, satisfies my creative needs, and I find learning about and coding enjoyable.</li>
                             <li>One aspect of this field I find fascinating, is the ability to see other people's work.</li>
                             <li>I enjoy being able to reverse engineer code, and solve the puzzle in piecing together and understanding, a logic from a different perspective.</li>
-                            <li>This is a field where I can see myself involved in for the next 30+ years.</li>
-                            <li>I am thrilled to have begun my journey as a Software Engineer and am excited for the continuous learning and endless growth that is possible in this field.</li>
+                            <li>I am thrilled to have begun my journey as a Software Engineer -
+                                 and am excited for the endless opportunities of learning and growth in this field.</li>
                         </ul>
                     </div>
                 </div>
