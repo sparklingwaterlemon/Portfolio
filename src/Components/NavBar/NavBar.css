@@ -147,7 +147,6 @@
     width: 100%;
     transition: background .7s linear;
   }
-
   .hamburger {
     display: block;
   }
@@ -185,18 +184,15 @@
   }
 
   #nav-link-p{
-    /* border: 1px dotted orange; */
     margin: 0;
     padding: 50px 0px;
-    /* justify-content: start; */
   }
   #nav-link-p-mobile{
-    /* border: 1px solid blue; */
     position: relative;
-    padding-top: 50px;
+    padding-top: 35px;
     padding-left: 130px;
     padding-right: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
   }
   #nav-link-p:hover{
     background-color: #1DA1F2;
@@ -211,10 +207,10 @@
   }
   #nav-link-c-mobile{
     position: relative;
-    padding-top: 50px;
+    padding-top: 35px;
     padding-left: 130px;
     padding-right: 130px;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
   }
   #nav-link-c:hover{
     background-color: #1DA1F2;
@@ -225,37 +221,38 @@
   }
   
   #nav-link-gh{
+    width: 100%;
     margin: 0px;
     padding: 10px 0px -10px 0px;
-  }
-  #nav-link-gh-mobile{
-    position: relative;
-    padding-top: 70px;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-bottom: 0px;
   }
   #nav-link-gh:hover{
     background-color: #1DA1F2;
   }
+  #nav-link-gh-mobile{
+    position: relative;
+    padding-top: 4px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 3px;
+  }
   #nav-link-gh-mobile:hover img{
-    transform: scale(1.3)
+    transform: scale(1.3);
   }
    
   #nav-link-li{
+    width: 100%;
     margin: 0px;
     padding: 10px 0px -10px 0px;
   }
+  #nav-link-li:hover{
+    background-color: #1DA1F2;
+  }
   #nav-link-li-mobile{
     position: relative;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-left: 140px;
     padding-right: 140px;
-    padding-bottom: 0px;
-  }
-  #nav-link-li:hover{
-    background-color: #657786
-    
+    padding-bottom: 5px;
   }
   #nav-link-li-mobile:hover img{
     transform: scale(1.3);

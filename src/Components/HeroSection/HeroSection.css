@@ -129,12 +129,10 @@
     .hero-container {
         margin-top: 80px;
         height: auto;
-        /* border: 2px solid red; */
         align-items: center;
     }
     .hero-image{
         height: 500px;
-        /* border: 10px solid green; */
     }
     .hero-image img{
         height: 190%;
@@ -143,7 +141,6 @@
         right: 0px;
     }
     .hero-title{
-        /* border: 2px solid red; */
         background: rgb(170, 184, 194);
         margin-top: 0px;
         box-shadow: none;
@@ -167,15 +164,12 @@
         height: auto;
         width: 90%;
         margin-top: 20px;
-        /* border: 2px solid red; */
     }
     .pb-h{
-        /* background-color: blue; */
         font-size: 1.2em;
         padding: 0px 20px;
     }
     .pb-text{
-        /* border: 2px solid red; */
         height: auto;
         margin-top: 20px;
         margin-left: 20px;
@@ -184,7 +178,6 @@
         padding: 0px 10px;       
     }
     .pb-t{
-        /* background-color: blue; */
         font-size: 1em;
     }
 }
