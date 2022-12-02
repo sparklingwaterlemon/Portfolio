@@ -32,9 +32,9 @@
   .scroll-button:hover {
     border: 2px solid #14171A;
     background-color: #14171A;
-    color: #fcd0de;
+    color: papayawhip;
     opacity: 1;
-    box-shadow: 0px 2px 6px 3px rgb(251, 125, 165);
+    box-shadow: 0px 2px 6px 3px papayawhip;
   }
 
   .s-arrow{
