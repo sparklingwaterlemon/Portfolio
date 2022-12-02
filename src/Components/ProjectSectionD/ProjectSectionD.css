@@ -83,6 +83,8 @@
     justify-content: flex-start;
     align-items: center;  
     overflow: hidden; 
+
+    padding-right: 40px;
 }
 .right-test-image{
     height: 440px;

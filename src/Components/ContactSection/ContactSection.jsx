@@ -39,6 +39,7 @@ export default function ContactSection() {
         e.target.reset();
     };
     
+    // Email To Contact. Pura Vida
     
     return (
         <section id="contact">
@@ -57,7 +58,9 @@ export default function ContactSection() {
             <div className="contact-form-container">
                 <div className="ct-container">
                     <div className="contact-text">
-                        Email To Contact. Pura Vida
+                        Get in touch
+                        <br/> Send an email
+                        <br/> Namaste
                     </div>
                     <div className="contact-email">
                         <form ref={form} onSubmit={sendEmail}>
