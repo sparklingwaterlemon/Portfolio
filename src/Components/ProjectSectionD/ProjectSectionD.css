@@ -10,6 +10,7 @@
     background-color: rgb(126, 28, 28);
     border-radius: 20px 0px 0px 20px;
     height: 75vh;
+    min-height: 500px;
     
     width: calc(50% - 40px);
     margin-top: 30px;
@@ -71,14 +72,19 @@
     border-radius: 0px 20px 20px 0px;
 
     width: calc(50% - 40px);
-    height: 75vh;
+    height: auto;
     margin-right: 40px;
+}
+.pd-right-image-container{
+    height: 75vh;
+    min-height: 500px;
 
     display: flex;
     justify-content: flex-start;
-    align-items: center;   
+    align-items: center;  
+    overflow: hidden; 
 }
-.pd-right-image-container{
+.right-test-image{
     height: 440px;
     width: 480px;
     background-color: #c1fbb0;
