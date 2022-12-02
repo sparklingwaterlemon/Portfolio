@@ -50,7 +50,7 @@ export default function NavBar() {
           
           <li id="nav-link-li">
             <div className="mobile-link-li">
-              <a href="https://www.linkedin.com/in/michael-kim-152226243" target="_blank" rel="noreferrer" id="nav-link-li-mobile">
+              <a href="https://www.linkedin.com/in/michaelkim3" target="_blank" rel="noreferrer" id="nav-link-li-mobile">
                 <img src={require("../../Assets/NavBarImages/linkedin.png")} alt="linkedin"/>
               </a>
             </div>
