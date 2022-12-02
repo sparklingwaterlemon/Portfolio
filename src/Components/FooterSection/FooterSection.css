@@ -36,6 +36,7 @@
     color: #F5F8FA;
 }
 .rf.top a:hover{
+    transform: scale(1.2);
     text-decoration: 5px #1DA1F2 underline;
 }
 .rf.bottom{

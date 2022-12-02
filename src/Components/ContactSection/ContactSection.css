@@ -1,5 +1,5 @@
 #contact {
-    height: auto;
+    height: 93vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +59,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    /* border: 2px solid green; */
 }
 .ct-container{
     height: auto;
