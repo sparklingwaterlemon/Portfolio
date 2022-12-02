@@ -8,6 +8,8 @@
 } 
 
 .about-container{
+    /* outline: 5px solid red; */
+
     height: 40vh;
     width: 100%;
     border-radius: 20px;
@@ -15,9 +17,7 @@
 
     margin-left: 40px;
     margin-right: 40px;
-
     margin-bottom: 40px;
-
 
     display: flex;
     justify-content: center;
@@ -27,10 +27,12 @@
     font-size: 1.1em;   
 }
 .about-text{
+    /* outline: 5px solid yellow; */
+
     height: 90%;
     width: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
 
     padding-right: 30px;
     overflow: auto;
