@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
 import "./index.css";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './Pages/App/App';
 import ResumePage from './Pages/ResumePage/ResumePage';
+import NotFound from './Pages/NotFound/NotFound';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +17,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="resume" element={<ResumePage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -1,9 +1,10 @@
 #contact {
-    height: 93vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     --contact-form-width: 450px;
+
 }
 
 .marquee-container {
@@ -136,7 +137,7 @@
 
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 .contact-image {
     outline: 2px solid #1c3613;
@@ -147,6 +148,7 @@
 
     position: relative;
 
+    margin-top: 25px;
     margin-left: 3vw;
     border-radius: 50%;
     border-radius: 20px;
