@@ -19,8 +19,20 @@ export default function FooterSection(){
                     Follow
                 </div>
                 <div className="ff bottom">
-                    <div className="ff-link f">Follow my Workouts: fitnessubstack</div>
-                    <div className="ff-link m">Follow my Music: tuneinwithmike@substack</div>
+                    <div className="ff-link f">
+                        <span className="ff-link-label">Daily Workouts:</span>
+                        <br/>
+                        <a href="https://mikesfitnessjourney.substack.com/" target="_blank" rel="noreferrer">
+                        mikesfitnessjourney
+                        </a>                        
+                    </div>
+                    <div className="ff-link m">
+                        <span className="ff-link-label">Discover Music:</span>
+                        <br/>
+                        <a href="https://tuneinwithmike.substack.com/" target="_blank" rel="noreferrer">
+                        tuneinwithmike
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -29,8 +41,16 @@ export default function FooterSection(){
                     Links
                 </div>
                 <div className="lf bottom">
-                    <div className="lf-link g">Github @ Github</div>
-                    <div className="lf-link l">LinkedIn@LinkedIn</div>
+                    <div className="lf-link g">
+                        <a href="https://github.com/sparklingwaterlemon/" target="_blank" rel="noreferrer">
+                        GitHub
+                        </a>
+                    </div>
+                    <div className="lf-link l">
+                    <a href="https://www.linkedin.com/in/michaelkim3/" target="_blank" rel="noreferrer">
+                        LinkedIn
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -42,7 +62,7 @@ export default function FooterSection(){
                     <div className="sf-link c">Los Angeles</div>
                     <div className="sf-link e">michaelstatus200@gmail.com</div>
                     {/* <div className="sf-link n">(213) 477-4574</div> */}
-                    <div className="sf-link n"> phonenumber?</div>
+                    <div className="sf-link n"> +1 (213) 477-4574</div>
                 </div>
             </div>
 
