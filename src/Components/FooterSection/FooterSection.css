@@ -1,26 +1,25 @@
 #footer{
-    height: 40vh;
+    height: 300px;
     width: 100%;
     background-color: #363636;
     display: flex;
     justify-content: center;
     align-items: flex;
     text-align: center;
-    --height: 25vh;
+
     --width: 230px;
     padding-top: 40px;
 }
 .resume-footer{
-    /* outline: 2px dashed coral; */
+    height: auto;
     width: var(--width);
-    height: var(--height);
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 .rf{
-    /* border: 2px solid coral; */
     height: 75px;
     width: 100%;
     font-size: 2em;
@@ -47,8 +46,7 @@
 
 
 .follow-footer{
-    /* outline: 2px dashed coral; */
-    height: var(--height);
+    height: auto;
     width: var(--width);
     display: flex;
     flex-direction: column;
@@ -56,7 +54,6 @@
     align-items: center;
 }
 .ff{
-    /* border: 1px solid coral; */
     width: 100%;
 }
 .ff.top{
@@ -74,7 +71,6 @@
     font-size: 1.05em;
 }
 .ff-link{
-    /* border: 1px solid coral; */
     overflow: auto;
     width: 100%;
     padding: 5px;
@@ -98,15 +94,13 @@
 
 
 .link-footer{
-    /* outline: 2px dashed coral; */
     width: var(--width);
-    height: var(--height);
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 .lf.top{
-    /* border: 2px solid coral; */
     height: 75px;
     width: 100%;
     font-size: 2.3em;
@@ -116,14 +110,12 @@
     justify-content: center;
 }
 .lf.bottom{
-    /* border: 1px solid coral; */
     width: 100%;
     height: calc(100% - 75px);
     font-size: 1.05em;
     color: whitesmoke;
 }
 .lf-link{
-    /* border: 1px solid coral; */
     width: 100%;
     padding: 5px;
 }
@@ -139,15 +131,13 @@
 
 
 .self-footer{
-    /* outline: 2px dashed whitesmoke; */
     width: calc(var(--width) + 50px);
-    height: var(--height);
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 .sf.top{
-    /* border: 2px solid coral; */
     height: 75px;
     width: 100%;
     display: flex;
@@ -157,20 +147,18 @@
     color: whitesmoke;
 }
 .sf.bottom{
-    /* border: 3px solid coral; */
     width: 100%;
     color: whitesmoke;
     font-size: 1.05em;
 }
 .sf-link{
-    /* border: 1px solid coral; */
     width: 100%;
     padding: 2px;
 }
 
 
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 720px){
     #footer{
         width: 100%;
         height: auto;
@@ -183,10 +171,11 @@
     }
     .follow-footer{
         width: 100%;
-        /* height: auto; */
+        margin-bottom: 40px;
     }
     .link-footer{
         width: 100%;
+        margin-bottom: 40px;
     }
     .self-footer{
         /* outline: 2px solid orange; */
