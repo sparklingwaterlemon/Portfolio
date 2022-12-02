@@ -57,7 +57,7 @@ export default function ContactSection() {
             <div className="contact-form-container">
                 <div className="ct-container">
                     <div className="contact-text">
-                        If you would like to get in touch, please send me an email below. Pura Vida
+                        Email To Contact. Pura Vida
                     </div>
                     <div className="contact-email">
                         <form ref={form} onSubmit={sendEmail}>
