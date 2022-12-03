@@ -26,7 +26,7 @@ export default function NavBar() {
             <Link 
               id="nav-link-p-mobile" 
               activeClass="active" 
-              smooth spy to="projects" 
+              smooth spy to="project-section-a" 
               onClick={toggle}>
               PROJECTS
             </Link>

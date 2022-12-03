@@ -1,41 +1,35 @@
 import "./ProjectSectionA.css";
 
 export default function ProjectSectionA(){
-    return (
-        <section id="projects">
-            <div className="project-a-transition" />
+    return(
+        <section id="project-section-a">
 
-            <div className="a-image-container">
-                <div className="a-long-image">
-                    {/* <img className="a-long-image" /> */} 
-                    <div className="a-tall-image">
-                        {/* <img className="a-tall-image" /> */}
+            <div className="pa-left-container">
+                <div className="pa-left-image-container">
+                    <div className="pa-left-test-image"/>
+                </div>
+            </div>
+
+            <div className="pa-right-container">
+                <div className="pa-info-container">
+                    <div className="pa-title">
+                        The Great Gig in the Sky
+                    </div>
+                    <div className="pa-text">
+                        Add Resume Description
+                        <br/>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
+                    </div>
+                    <div className="pa-link-container">
+                        <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+                            <button className="pa-button gh"> GitHub </button>
+                        </a>
+                        <a href="https://www.google.com" target="_blank" rel="noreferrer">
+                            <button className="pa-button ll"> Live Link </button>
+                        </a>
                     </div>
                 </div>
             </div>
-
-
-
-            <div className="a-statement-container">
-                <div className="a-title">
-                    Craps
-                </div>
-                <div className="a-text">
-                    Ispo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati porro tempora explicabo ea dolores.
-                </div>
-
-                <div className="a-button-container">
-                    <button className="button1">
-                        GitHub
-                    </button>
-                    <button className="button2">
-                        Live Link
-                    </button>
-                </div>
-            </div>
-         
-
-
         </section>
     )
 }
