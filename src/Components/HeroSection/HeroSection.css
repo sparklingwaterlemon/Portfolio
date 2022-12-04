@@ -99,15 +99,16 @@
 @media only screen and (max-width: 640px){
     #hero {
         height: auto;
-        --hero-mobile-height: 500px;
     }
     .hero-container {
-        margin-top: 80px;
         height: auto;
         align-items: center;
     }
     .hero-image{
         height: 500px;
+        margin-top: 80px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .hero-image img{
         height: 190%;

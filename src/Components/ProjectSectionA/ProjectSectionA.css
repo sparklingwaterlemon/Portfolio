@@ -6,7 +6,7 @@
     align-items: flex-start;
     color: #F5F8FA;
 }
-.pa-left-container {
+.psa-left-container {
     margin-top: 40px;
     margin-left: 40px;
 
@@ -16,7 +16,7 @@
     /* background-image: url("paper.gif"); */
     border-radius: 20px 0px 0px 20px;
 }
-.pa-left-image-container {
+.psa-left-image-container {
     height: 75vh;
     min-height: 500px;
     padding-left: 10px;
@@ -26,18 +26,18 @@
     align-items: center;
     overflow: hidden;
 }
-.pa-left-image {
+.psa-left-image {
     min-height: 400px;
     width: 90%;
     object-fit: cover;
     border-radius: 20px;
     
 }
-.pa-left-image:hover{
+.psa-left-image:hover{
     outline: 2px solid #F5F8FA;
     cursor: zoom-in;
 }
-.pa-left-image:active{
+.psa-left-image:active{
     width: 110%;
     height: 100%;
     object-fit: cover;
@@ -46,7 +46,7 @@
 
 
 
-.pa-right-container {
+.psa-right-container {
     margin-top: 40px;
     margin-right: 40px;
 
@@ -62,7 +62,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.pa-info-container {    
+.psa-info-container {    
     height: auto;
     width: 400px;
     margin-left: 40px;
@@ -74,17 +74,17 @@
     
     text-align: center;
 }
-.pa-title {
+.psa-title {
     font-size: 2em;
 }
-.pa-text {
+.psa-text {
     font-size: 1em;
     padding-top: 20px;
 }
-.pa-link-container {
+.psa-link-container {
     padding: 25px;
 }
-.pa-button {
+.psa-button {
     width: 125px;
     height: 55px;
     background-color: #14171A;
@@ -96,26 +96,26 @@
     cursor: pointer;
     transition: background-color .5s, color .5s ease-in;
 }
-.pa-button.gh {
+.psa-button.gh {
     width: auto;
     border: 2px solid #F5F8FA;
     border-radius: 10px 0px 0px 10px;
     border-style: solid none solid solid;
 }
-.pa-button.ll {
+.psa-button.ll {
     width: auto;
     border: 2px solid #F5F8FA;
     border-radius: 0px 10px 10px 0px;
     border-style: solid solid solid none;
 }
-.pa-button:hover {
+.psa-button:hover {
     background-color: #1DA1F2;
 }
 
 
 
 @media screen and (max-width: 865px) {
-    .pa-left-container {
+    .psa-left-container {
         height: auto;
         width: 100%;
         border-radius: 20px 20px 0px 0px;
@@ -124,18 +124,29 @@
         margin-left: 20px;
         margin-right: 20px;
     }
-    .pa-left-image-container {
+    .psa-left-image-container {
         height: auto;
         width: inherit;
         min-height: 0;
         padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    .pa-left-test-image {
+    .psa-left-image {
         height: 300px;
         width: 300px;
     }
+    .psa-left-image:hover{
+        outline: none;
+        cursor: default;
+    }
+    .psa-left-image:active{
+        width: 90%;
+        height: auto;
+        cursor: default;
+    }
 
-    .pa-right-container {
+    .psa-right-container {
         height: auto;
         width: 100%;
         min-height: 0;
@@ -148,46 +159,49 @@
         border-radius: 0px 0px 20px 20px;
         justify-content: center;
     }
-    .pa-info-container {
+    .psa-info-container {
         padding-top: 20px;
         width: 100%;
         margin-left: 20px;
         margin-right: 20px;
     }
-    .pa-left-image:hover{
-        outline: none;
-        cursor: default;
+    .psa-text{
+        padding-top: 10px;
     }
-    .pa-left-image:active{
-        width: 90%;
-        height: auto;
-        cursor: default;
-    }
-
 }
 
-@media screen and (max-width: 400px) {
-    .pa-link-container {
+@media screen and (max-width: 420px) {
+    .psa-link-container {
         width: 100%;
-        
+    
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        /* outline: 4px solid yellow; */
+        justify-content: center;
+        justify-content: space-evenly;
+
+        padding-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
     }
-    .pa-button.gh{
-        width: 110px;
-        height: 80px;
-        border-style: solid;
-        border-radius: 10px;
-        padding: 0;
-        
+    .psa-button.gh{
+        width: 100%;
+        height: 75px;
+        border-radius: 7px;
+        background-color: #F5F8FA;
+        border: none;
+        color: #14171A;
     }
-    .pa-button.ll{
-        width: 110px;
-        height: 80px;
-        border-style: solid;
-        border-radius: 10px;
+    .psa-button.ll{
+        width: 100%;
+        height: 75px;
+        border-radius: 7px;
+        background-color: #F5F8FA;
+        border: none;
+        color: #14171A;
+    }
+    .psa-button:hover {
+        background-color:#F5F8FA;
     }
 }
