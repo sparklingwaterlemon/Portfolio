@@ -29,6 +29,7 @@
     align-items: center;
 }
 .rf.top a{
+    color: whitesmoke;
     text-decoration: #1DA1F2 wavy underline;    
 }
 .rf.top a:visited{
