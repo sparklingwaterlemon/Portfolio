@@ -9,10 +9,15 @@ export default function ProjectSectionB(){
                     <div className="psb-title">
                         Shake On It!
                     </div>
+                    <div className="psb-descript">
+                        Send and Track bets, wagers, and challenges to Added Friends - <br/>MERN Stack
+                    </div>
                     <div className="psb-text">
-                        Add Resume Description
-                        <br />
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
+                        <ul>
+                            <li>Incorporated Google OAuth2 with Passport.js & Google Cloud API Services</li>
+                            <li>Search Bar funtionality - ability to add friends by "Gamer Tag"</li>
+                            <li>Create and Track Private Bets Between Friends</li>
+                        </ul>
                     </div>
                     <div className="psb-link-container">
                         <a href="https://github.com/sparklingwaterlemon/Shake-On-It/" target="_blank" rel="noreferrer">

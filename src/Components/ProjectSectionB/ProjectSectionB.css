@@ -21,11 +21,11 @@
 
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .psb-info-container{
     height: auto;
-    width: 400px;
+    width: 450px;
     
     display: flex;
     flex-direction: column;
@@ -37,12 +37,18 @@
 .psb-title{
     font-size: 3em;
 }
+.psb-descript{
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
 .psb-text{
     font-size: 1.2em;
-    padding-top: 20px;
+    text-align: start;
 }
 .psb-link-container{
-    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .psb-button{
     font-size: 1.3em;
@@ -83,6 +89,7 @@
     width: calc(50% - 40px);
     background-color: blanchedalmond;
     border-radius: 0px 20px 20px 0px;
+    outline: 2px solid white;
 }
 .psb-right-image-container{
     height: 75vh;
@@ -123,6 +130,7 @@
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
+        outline: none;
     }
     .psb-right-image-container{
         height: auto;

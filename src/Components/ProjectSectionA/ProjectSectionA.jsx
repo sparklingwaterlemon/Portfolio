@@ -15,10 +15,15 @@ export default function ProjectSectionA(){
                     <div className="psa-title">
                         The Great Gig in the Sky
                     </div>
+                    <div className="psa-descript">
+                            Lunar Themed Weather App and Journal - MERN Stack
+                    </div>
                     <div className="psa-text">
-                        Add Resume Description
-                        <br/>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
+                        <ul>
+                            <li>Apple like scroll animation of the moon.</li>
+                            <li>RestfulAPI - full CRUD operations</li>
+                            <li>Extensive use of React Hooks</li>
+                        </ul>
                     </div>
                     <div className="psa-link-container">
                         <a href="https://github.com/sparklingwaterlemon/The-Great-Gig-in-the-Sky" target="_blank" rel="noreferrer">

@@ -47,6 +47,7 @@
 .psa-right-container {
     margin-top: 40px;
     margin-right: 40px;
+
     padding-left: 40px;
     padding-right: 40px;
 
@@ -59,27 +60,38 @@
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
+    outline: 2px solid white;
+
 }
 .psa-info-container {    
     height: auto;
-    width: 400px;
+    width: 450px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     text-align: center;
 }
 .psa-title {
+    height: 100%;
     font-size: 3em;
+}
+.psa-descript{
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: 300;
 }
 .psa-text {
     font-size: 1.2em;
-    padding-top: 20px;
+    text-align: start;
+
 }
 .psa-link-container {
-    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .psa-button {
     width: 125px;
@@ -160,6 +172,7 @@
         justify-content: center;
 
         border-radius: 0px 0px 20px 20px;
+        outline: none;
     }
     .psa-info-container {
         width: 100%;
