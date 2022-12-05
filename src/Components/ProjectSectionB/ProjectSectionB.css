@@ -4,14 +4,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    color: brown;
     color: chocolate;
 }
 .psb-left-container{
     margin-top: 40px;
     margin-left: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 
     height: 75vh;
+    min-height: 500px;
     width: calc(50% - 40px);
 
     background-color: blanchedalmond;
@@ -24,7 +26,6 @@
 .psb-info-container{
     height: auto;
     width: 400px;
-    margin-right: 40px;
     
     display: flex;
     flex-direction: column;
@@ -32,19 +33,20 @@
     justify-content: center;
     
     text-align: center;
-    /* outline: 2px solid red; */
 }
 .psb-title{
-    font-size: 2em;
+    font-size: 3em;
 }
 .psb-text{
-    font-size: 1em;
+    font-size: 1.2em;
     padding-top: 20px;
 }
 .psb-link-container{
     padding: 25px;
 }
 .psb-button{
+    font-size: 1.3em;
+
     width: 125px;
     height: 55px; 
     background-color: #14171A;
@@ -53,7 +55,6 @@
 
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 1.3em;
     cursor: pointer;
     transition: background-color .5s, color .5s ease-in;
 }
@@ -77,16 +78,15 @@
 .psb-right-container{
     margin-top: 40px;
     margin-right: 40px;
+
     height: auto;
     width: calc(50% - 40px);
-
     background-color: blanchedalmond;
     border-radius: 0px 20px 20px 0px;
 }
 .psb-right-image-container{
     height: 75vh;
-    /* min-height: 500px; */
-    padding-right: 10px;
+    min-height: 500px;
 
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@
 }
 
 
-@media screen and (max-width: 865px){
+@media screen and (max-width: 815px){
     #project-section-b{
         flex-wrap: wrap-reverse;
     }
@@ -130,20 +130,20 @@
         min-height: 0;
 
         padding-top: 20px;
-        padding-right: 0px;
-        padding-left: 0px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .psb-right-image{
         min-height: 250px;
-        width: 300px;
+        width: 100%;
     }
     .psb-right-image:hover{
         outline: none;
         cursor: default;
     }
     .psb-right-image:active{
-        height: 250px;
-        width: 300px;
+        width: 100%;
+        height: auto;
         cursor: default;
     }
 
@@ -157,18 +157,23 @@
         margin-right: 20px;
         margin-bottom: 0px;
 
-        border-radius: 0px 0px 20px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
         justify-content: center;
+
+        border-radius: 0px 0px 20px 20px;
     }
     .psb-info-container{
-        padding-top: 20px;
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-    
+        width: 100%;    
+    }
+    .psb-title{
+        padding-top: 10px;
+        font-size: 2em;
     }
     .psb-text{
         padding-top: 10px;
+        font-size: 1em;    
     }
 }
 
@@ -180,12 +185,12 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
-        padding-top: 25px;
+        padding-top: 20px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .psb-button.gh{
         width: 100%;

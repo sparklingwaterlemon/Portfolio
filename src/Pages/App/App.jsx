@@ -3,7 +3,8 @@ import HeroSection from '../../Components/HeroSection/HeroSection';
 import AboutSection from '../../Components/AboutSection/AboutSection';
 import ProjectSectionA from '../../Components/ProjectSectionA/ProjectSectionA';
 import ProjectSectionB from '../../Components/ProjectSectionB/ProjectSectionB';
-// import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
+import ProjectSectionC from '../../Components/ProjectSectionC/ProjectSectionC';
+import ProjectSectionD from '../../Components/ProjectSectionD/ProjectSectionD';
 import ContactSection from '../../Components/ContactSection/ContactSection';
 import ScrollToTop from '../../Utilities/ScrollToTop/ScrollToTop';
 import FooterSection from '../../Components/FooterSection/FooterSection';
@@ -22,6 +23,8 @@ export default function App() {
         <AboutSection />
         <ProjectSectionA />
         <ProjectSectionB />
+        <ProjectSectionC />
+        <ProjectSectionD />
         <ContactSection />
         <ScrollToTop />
         <FooterSection />

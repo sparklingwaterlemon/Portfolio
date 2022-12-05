@@ -2,29 +2,32 @@ import "./ProjectSectionD.css";
 
 export default function ProjectSectionD(){
     return(
-        <section id="projects">
-            <div className="pd-left-container">
-                <div className="pd-info-container">
-                    <div className="pd-title">
-                        Craps
-                    </div>
-                    <div className="pd-text">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
-                    </div>
-                    <div className="pd-link-container">
-                        <a className="pdlink yt" href="https://www.youtube.com" target="_blank" rel="noreferrer">
-                            <button className="pd-button yt"> YT </button>
-                        </a>
-                        <a className="pdlink gg" href="https://www.google.com" target="_blank" rel="noreferrer">
-                            <button className="pd-button gg"> Google </button>
-                        </a>
-                    </div>
+        <section id="project-section-d">
+
+            <div className="psd-left-container">
+                <div className="psd-left-image-container">
+                    <img className="psd-left-image" src={require("../../Assets/ProjectSectionA/PSALanding.png")} alt="TGGITS"/>
                 </div>
             </div>
 
-            <div className="pd-right-container">
-                <div className="pd-right-image-container">
-                    <div className="right-test-image"/>
+            <div className="psd-right-container">
+                <div className="psd-info-container">
+                    <div className="psd-title">
+                        The Great Gig in the Sky
+                    </div>
+                    <div className="psd-text">
+                        Add Resume Description
+                        <br/>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
+                    </div>
+                    <div className="psd-link-container">
+                        <a href="https://github.com/sparklingwaterlemon/The-Great-Gig-in-the-Sky" target="_blank" rel="noreferrer">
+                            <button className="psd-button gh"> GitHub </button>
+                        </a>
+                        <a href="https://the-great-gig-in-the-sky.herokuapp.com/" target="_blank" rel="noreferrer">
+                            <button className="psd-button ll"> Live Link </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
