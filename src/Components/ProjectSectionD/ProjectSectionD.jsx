@@ -6,14 +6,16 @@ export default function ProjectSectionD(){
 
             <div className="psd-left-container">
                 <div className="psd-left-image-container">
-                    <img className="psd-left-image" src={require("../../Assets/ProjectSectionA/PSALanding.png")} alt="TGGITS"/>
+                    <img 
+                        className="psd-left-image" 
+                        src={require("../../Assets/ProjectSectionD/ProjectSectionDLanding.png")} alt="TGGITS"/>
                 </div>
             </div>
 
             <div className="psd-right-container">
                 <div className="psd-info-container">
                     <div className="psd-title">
-                        The Great Gig in the Sky
+                        Craps
                     </div>
                     <div className="psd-text">
                         Add Resume Description
@@ -21,10 +23,10 @@ export default function ProjectSectionD(){
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
                     </div>
                     <div className="psd-link-container">
-                        <a href="https://github.com/sparklingwaterlemon/The-Great-Gig-in-the-Sky" target="_blank" rel="noreferrer">
+                        <a href="https://github.com/sparklingwaterlemon/Project-1-Craps" target="_blank" rel="noreferrer">
                             <button className="psd-button gh"> GitHub </button>
                         </a>
-                        <a href="https://the-great-gig-in-the-sky.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <a href="https://sparkly-platypus.netlify.app/" target="_blank" rel="noreferrer">
                             <button className="psd-button ll"> Live Link </button>
                         </a>
                     </div>

@@ -54,7 +54,7 @@
 
 .contact-form-container {
     height: calc(100% - 110px);
-    width: 50%;
+    width: calc(50% - 40px);
     overflow: auto;
     
 
@@ -63,8 +63,11 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    
     /* border: 2px solid green; */
+
     margin-top: 10px;
+    margin-left: 40px;
     margin-bottom: 40px;
 
     --contact-form-width: 450px;
@@ -120,6 +123,7 @@
 
     background-color: #F5F8FA;
     border: none;
+
 }
 #contact-button {
     border: none;
@@ -128,7 +132,8 @@
     font-size: 1em;
 
     border-radius: 10px;
-    margin: 10px 0px 20px 0px;
+    margin-top: 10px; 
+    margin-bottom: 20px;
     padding: 10px 20px 10px 20px;
 }
 #contact-button:hover {
@@ -140,15 +145,13 @@
 
 
 .contact-image-container {
-    height: calc(100% - 110px);
     height: 100%;
-    width: 50%;
+    width: calc(50% - 40px);
 
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 10px;
-    /* border: 2px solid brown; */
 }
 .contact-image {
     outline: 2px solid #1c3613;
@@ -175,15 +178,23 @@
     .marquee-container{
         display: none;
     }
+
     .contact-form-container{
         height: auto;
-        width: 100%;
+        width: auto;
+
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        
+        display: flex;
         justify-content: center;
         align-items: center;
     }
     .ct-container{
         width: 100%;
-        margin-bottom: 0px;
+        margin: 0px;
     }
     .contact-text{
         height: auto;
@@ -191,29 +202,43 @@
         margin-top: 0px;
         text-align: center;
 
+        padding-top: 0px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 0px;
+        
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
     }
     #contact-button{
         background-color: #F5F8FA;
         color:#14171A;
     }
     .contact-email {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 20px;
+        width: auto;
     }
+
     .contact-image-container{
         height: auto;
         width: 100%;
+
+        display: flex;
         justify-content: center;
         align-items: center;
+
+        margin-top: 20px;
+        margin-left: 0px;
+        right: 0;
+
     }
     .contact-image{
         width: 200px;
         height: 300px;
-        margin-top: 40px;
+        margin: 0;
+    }
+    #contact-button {
+        margin-top: 15px;
         margin-bottom: 30px;
     }
 }

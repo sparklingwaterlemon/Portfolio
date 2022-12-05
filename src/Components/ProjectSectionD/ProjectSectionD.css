@@ -4,22 +4,20 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    color: #F5F8FA;
+    color: rgb(253, 234, 234);
 }
 .psd-left-container {
     margin-top: 40px;
     margin-left: 40px;
 
-    height: 75vh;
+    height: auto;
     width: calc(50% - 40px);
-    background-color: steelblue;
-    /* background-image: url("paper.gif"); */
+    background-color: rgb(139,26,28);
     border-radius: 20px 0px 0px 20px;
 }
 .psd-left-image-container {
     height: 75vh;
     min-height: 500px;
-    padding-left: 10px;
 
     display: flex;
     justify-content: center;
@@ -31,10 +29,9 @@
     width: 90%;
     object-fit: cover;
     border-radius: 20px;
-    
 }
 .psd-left-image:hover{
-    outline: 2px solid #F5F8FA;
+    outline: 2px solid gray;
     cursor: zoom-in;
 }
 .psd-left-image:active{
@@ -49,13 +46,14 @@
 .psd-right-container {
     margin-top: 40px;
     margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
 
     height: 75vh;
     min-height: 500px;
     width: calc(50% - 40px);
 
-    background-color: steelblue;
-    /* background-image: url("paper.gif"); */
+    background-color: rgb(139,26,28);
     border-radius: 0px 20px 20px 0px;
 
     display: flex;
@@ -65,20 +63,18 @@
 .psd-info-container {    
     height: auto;
     width: 400px;
-    margin-left: 40px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
     text-align: center;
 }
 .psd-title {
-    font-size: 2em;
+    font-size: 3em;
 }
 .psd-text {
-    font-size: 1em;
+    font-size: 1.2em;
     padding-top: 20px;
 }
 .psd-link-container {
@@ -109,18 +105,19 @@
     border-style: solid solid solid none;
 }
 .psd-button:hover {
-    background-color: #1DA1F2;
+    background-color:burlywood;   
 }
 
 
 
-@media screen and (max-width: 865px) {
-    .psd-left-container {
+@media screen and (max-width: 815px) {
+    .psd-left-container{
+        
         height: auto;
         width: 100%;
         border-radius: 20px 20px 0px 0px;
 
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -128,20 +125,21 @@
         height: auto;
         width: inherit;
         min-height: 0;
+
         padding-top: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .psd-left-image {
         height: 300px;
-        width: 300px;
+        width: 100%;
     }
     .psd-left-image:hover{
         outline: none;
         cursor: default;
     }
     .psd-left-image:active{
-        width: 90%;
+        width: 100%;
         height: auto;
         cursor: default;
     }
@@ -156,17 +154,23 @@
         margin-right: 20px;
         margin-bottom: 0px;
 
-        border-radius: 0px 0px 20px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
         justify-content: center;
+
+        border-radius: 0px 0px 20px 20px;
     }
     .psd-info-container {
-        padding-top: 20px;
         width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
+    }
+    .psd-title{
+        padding-top: 10px;
+        font-size: 2em;
     }
     .psd-text{
         padding-top: 10px;
+        font-size: 1em;
     }
 }
 
@@ -178,12 +182,12 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        justify-content: space-evenly;
+        justify-content: space-between;
 
-        padding-top: 25px;
+        padding-top: 20px;
         padding-left: 0px;
         padding-right: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .psd-button.gh{
         width: 100%;

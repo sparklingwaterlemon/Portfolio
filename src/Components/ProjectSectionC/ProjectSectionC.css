@@ -94,7 +94,7 @@
 
 @media screen and (max-width: 890px) {
     .psc-left-container {
-        margin-left: 20px;
+        margin-left: 40px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -107,7 +107,7 @@
     }
     .psc-right-container{
         height: 30vh;
-        margin-right: 20px;
+        margin-right: 40px;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -131,6 +131,14 @@
         border-style: solid;
     }
 }
+@media only screen and (max-width: 850px){
+    .psc-left-container {
+        margin-left: 20px;
+    }
+    .psc-right-container{
+        margin-right: 20px;
+    }
+}
 @media screen and (max-width: 750px){
     .psc-title{
         font-size: 2em;
@@ -151,6 +159,42 @@
     .psc-right-container{
         padding-left: 20px;
         padding-right: 20px;
+
+    }
+    .psc-link-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+    .psc-button {
+        width: 125px;
+        height: 55px;
+        background-color: #14171A;
+        color: #F5F8FA;
+    
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.3em;
+        cursor: pointer;
+        transition: background-color .5s, color .5s ease-in;
+    }
+    .psc-button.gh {
+        width: auto;
+        border: 2px solid #F5F8FA;
+        border-radius: 10px 0px 0px 10px;
+        border-style: solid none solid solid;
+    }
+    .psc-button.ll {
+        width: auto;
+        border: 2px solid #F5F8FA;
+        border-radius: 0px 10px 10px 0px;
+        border-style: solid solid solid none;
+    }
+    .psc-button:hover {
+        background-color: #1DA1F2;
     }
 }
 
@@ -216,6 +260,9 @@
                 
         border-radius: 0px 0px 20px 20px;
     }
+}
+
+@media screen and (max-width: 420px){
     .psc-link-container{
         width: 100%;
         height: 100%;
