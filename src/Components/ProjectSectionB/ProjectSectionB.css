@@ -72,7 +72,7 @@
     border-style: solid solid solid none;
 }
 .psb-button:hover{
-    background-color:rgb(235, 120, 100);
+    background-color:rgb(255, 140, 120);
 }
 
 .psb-right-container{
@@ -184,7 +184,6 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
         justify-content: space-between;
 
         padding-top: 20px;
