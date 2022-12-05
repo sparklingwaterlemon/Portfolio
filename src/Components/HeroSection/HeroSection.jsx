@@ -24,11 +24,6 @@ export default function HeroSection(){
                         Software Engineer with a background in Sales, Studio Art, and Chemistry
                     </span>
                 </div>
-                {/* <div className="pb-text">
-                    <span className="pb-t">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut facere vel reprehenderit adipisci maiores, labore, repudiandae repellat odit at amet doloremque! Numquam, ex a tenetur corrupti quidem molestiae quaerat quo?
-                    </span>
-                </div> */}
             </div>
 
         </section>

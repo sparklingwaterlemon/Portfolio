@@ -20,10 +20,10 @@ export default function ProjectSectionC(){
             
             <div className="psc-right-container">
                 <div className="psc-link-container">
-                    <a href="https://github.com/sparklingwaterlemon/The-Great-Gig-in-the-Sky" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/sparklingwaterlemon/Portfolio" target="_blank" rel="noreferrer">
                         <button className="psc-button gh"> GitHub </button>
                     </a>
-                    <a href="https://the-great-gig-in-the-sky.herokuapp.com/" target="_blank" rel="noreferrer">
+                    <a href="https://michaelkim.netlify.app/" target="_blank" rel="noreferrer">
                         <button className="psc-button ll"> Live Link </button>
                     </a>
                 </div>
