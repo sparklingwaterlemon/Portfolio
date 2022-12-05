@@ -8,13 +8,24 @@ export default function ProjectSectionC(){
                 <div className="psc-title">
                     Portfolio
                 </div>
+                <div className="psc-descript">
+                    You're here! Personal Site
+                </div>
+                <div className="psc-descript-tag">
+                        Created using React
+                </div>
             </div>
 
             <div className="psc-middle-container">
                 <div className="psc-text">
-                    Add Resume Description
-                    <br/>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde molestiae commodi, quo ratione aspernatur provident adipisci, dolore nostrum neque fugiat.
+                    <ul>
+                        <li> Incorporated React Scroll Library, SweetAlert2 Library, and EmailJS API</li>
+                        <li> Incorporated new React v6.4 Client Side Routing</li>
+                        <li> Incorported Error Page - useRouteError</li>
+                        <li> React Hooks for Bubble Animation</li>
+                        <li> CSS - Keyframes/ Animations/ Transitions</li>
+                        <li> Media Responsive Design</li>
+                    </ul>
                 </div>
             </div>
             

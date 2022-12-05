@@ -87,7 +87,6 @@
 .psa-text {
     font-size: 1.2em;
     text-align: start;
-
 }
 .psa-link-container {
     padding-top: 10px;
@@ -123,7 +122,7 @@
 
 
 
-@media screen and (max-width: 815px) {
+@media screen and (max-width: 825px) {
     .psa-left-container {
         height: auto;
         width: 100%;
@@ -181,10 +180,14 @@
         padding-top: 10px;
         font-size: 2em;
     }
+    .psa-descript{
+        font-size: 1.3em;
+    }
     .psa-text{
         padding-top: 10px;
         font-size: 1em;
     }
+
 }
 
 @media screen and (max-width: 420px) {
