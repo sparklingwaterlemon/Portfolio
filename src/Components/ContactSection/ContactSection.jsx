@@ -85,7 +85,7 @@ export default function ContactSection() {
 
             <div className="contact-right-container">
                 <div className="contact-image-container">
-                    <img className="contact-image" src={require("../../Assets/ContactImages/ContactImage.jpg")} alt="contact image"/>
+                    <img className="contact-image" src={require("../../Assets/ContactImages/ContactImage.jpg")} alt="contact"/>
                 </div>
             </div>
 
