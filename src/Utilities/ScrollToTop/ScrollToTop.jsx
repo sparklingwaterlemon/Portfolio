@@ -6,7 +6,7 @@ export default function ScrollToTop(){
   const [showScroll, setShowScroll] = useState(false);
 
   const checkScrollTop = () => {
-    if(window.pageYOffset > 300){
+    if(window.pageYOffset > 400){
       setShowScroll(true);
     }else {
       setShowScroll(false);

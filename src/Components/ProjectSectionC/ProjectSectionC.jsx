@@ -21,7 +21,7 @@ export default function ProjectSectionC(){
                     <ul>
                         <li> Incorporated React Scroll Library, SweetAlert2 Library, and EmailJS API</li>
                         <li> Incorporated new React v6.4 Client Side Routing</li>
-                        <li> Incorported Error Page - useRouteError</li>
+                        <li> Coded in Error Page - useRouteError (check out ReadMe)</li>
                         <li> React Hooks for Bubble Animation</li>
                         <li> CSS - Keyframes/ Animations/ Transitions</li>
                         <li> Media Responsive Design</li>
