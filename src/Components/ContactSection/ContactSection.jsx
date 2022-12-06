@@ -50,6 +50,7 @@ export default function ContactSection() {
                 </div>
                 <div className="marquee-text1">
                     &nbsp;CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT CONTACT*
+                    {/* &nbsp;CONTACT contact <em>CONTACT</em> <strong>contact</strong> CONTACT <em>contact</em> CONTACT* */}
                 </div>
             </div>
             
@@ -82,8 +83,10 @@ export default function ContactSection() {
                 </div>
             </div>
 
-            <div className="contact-image-container">
-                <div className="contact-image"></div>
+            <div className="contact-right-container">
+                <div className="contact-image-container">
+                    <img className="contact-image" src={require("../../Assets/ContactImages/ContactImage.jpg")} alt="contact image"/>
+                </div>
             </div>
 
         </section>
