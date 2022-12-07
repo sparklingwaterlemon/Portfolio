@@ -9,7 +9,7 @@ export default function AboutSection() {
                 <div className="about-text">
                     <div className="at-p">
                         My journey from Ceramic Artist to Software Engineer
-                        <br /> (Skip ahead to <Link id="skip-to-project" activeClass="active" smooth spy to="projects">Projects</Link>)
+                        <br /> (Skip ahead to <Link id="skip-to-project" activeClass="active" smooth spy to="project-section-a">Projects</Link>)
                         <br />
                         <br />
                         <ul> 2009 - 2013
