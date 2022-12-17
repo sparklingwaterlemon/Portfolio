@@ -60,8 +60,7 @@ export default function FooterSection(){
                 </div>
                 <div className="sf bottom">
                     <div className="sf-link c">Los Angeles</div>
-                    <div className="sf-link e">michaelstatus200@gmail.com</div>
-                    {/* <div className="sf-link n">(213) 477-4574</div> */}
+                    <div className="sf-link e">michael.dev.kim@gmail.com</div>
                     <div className="sf-link n"> +1 (213) 477-4574</div>
                 </div>
             </div>
